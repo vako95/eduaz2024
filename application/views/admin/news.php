@@ -53,14 +53,16 @@
 
                         <?php $say = 0;
                         foreach ($all_data  as $all_data_key) {
-                            $say++; ?>
 
+                            $say++; ?>
+                            <?php $get_all_news_title = json_decode($all_data_key['n_title'], TRUE);  ?>
+                            <?php $get_all_news_description = json_decode($all_data_key['n_description'], TRUE);  ?>
                             <tr>
                                 <td><?php echo $say ?></td>
 
 
-                                <td><?php echo $all_data_key['n_title']; ?></td>
-                                <td><?php echo $all_data_key['n_description']; ?></td>
+                                <td><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></td>
+                                <td><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></td>
                                 <td> <?php echo $all_data_key['n_date']; ?></td>
                                 <td> <?php echo $all_data_key['n_category']; ?></td>
                                 <td> <?php if ($all_data_key['n_img']) { ?>

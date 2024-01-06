@@ -40,7 +40,37 @@ object-fit: cover;
 </style>
 
 <!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+<div class="owl-carousel header-carousel position-relative">
+<?php foreach ($get_all_news as $get_all_news_key) { ?>
 
+    <?php $get_all_news_title = json_decode($get_all_news_key['n_title'],TRUE);  ?>
+    <?php $get_all_news_description = json_decode($get_all_news_key['n_description'],TRUE);  ?>
+    
+<div class="owl-carousel-item position-relative">
+<?php if ($get_all_news_key['n_img']) { ?>
+    <img class="img-fluid img_slider " src="<?php echo base_url('uploads/news/' . $get_all_news_key['n_img']); ?>" alt="">
+<?php } else { ?>
+    <img class="img-fluid img_slider" src="<?php echo base_url('public/user/'); ?>img/carousel-2.jpg" alt="">
+<?php } ?>
+<div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-sm-10 col-lg-8">
+                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"><?php echo $get_all_news_key['n_category']; ?></h5>
+                <h1 class="display-3 text-white animated slideInDown"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h1>
+                <p class="fs-5 text-white mb-4 pb-2"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
+                <p class="fs-5 text-white mb-4 pb-2"><?php echo date("d-M-Y", strtotime($get_all_news_key['n_date']));  ?></p>
+                <a href="<?php echo base_url('news_single/' .$get_all_news_key['n_id']); ?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                <a href="<?php echo base_url('contact'); ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<?php } ?>
+</div>
+</div>
 
 <!-- Carousel End -->
 

@@ -110,7 +110,7 @@ class AdminCon extends CI_Controller
 
 
         $date  = $this->input->post('date', TRUE);
-        $cate  = $this->input->post('$cate', TRUE);
+        $cate  = $this->input->post('cate', TRUE);
         $status  = $this->input->post('status', TRUE);
 
 

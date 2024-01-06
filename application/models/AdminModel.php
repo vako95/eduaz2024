@@ -69,7 +69,10 @@ class AdminModel extends CI_model
         return $this->db->where('n_id', $id)->get('news')->row_array();
     }
 
-   
+    public function get_skilled_news()
+    {
+        return $this->db->order_by('s_id', 'DESc')->get('skilled_info')->result_array();
+    }
 
     public function check_user($data)
     {
