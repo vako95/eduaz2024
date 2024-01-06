@@ -32,9 +32,9 @@
                     <a href="" class="close" data-dismiss="alert" aria-label="close"></a>
                     <strong><?php echo $this->session->flashdata('success'); ?></strong>
                 </div>
-            <?php } ?> 
-       
-           
+            <?php } ?>
+
+
             <div class="table-responsive">
                 <table class="table no-wrap">
                     <thead>
@@ -50,11 +50,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                       
-                            <?php $say = 0; foreach ($all_data  as $all_data_key) { $say ++; ?>
+
+                        <?php $say = 0;
+                        foreach ($all_data  as $all_data_key) {
+                            $say++; ?>
 
                             <tr>
-                            <td><?php echo $say ?></td>
+                                <td><?php echo $say ?></td>
 
 
                                 <td><?php echo $all_data_key['n_title']; ?></td>
@@ -72,18 +74,18 @@
 
 
                                 <td>
-                                <a href="<?php echo base_url('admin_news_view/' . $all_data_key['n_id']) ?>">
-                                     <button type="button" class="btn btn-info">
+                                    <a href="<?php echo base_url('admin_news_view/' . $all_data_key['n_id']) ?>">
+                                        <button type="button" class="btn btn-info">
                                             <i style="color:white;   font-size:10px;" class="fa fa-eye" aria-hidden="true"></i>
                                         </button>
                                     </a>
                                     <a href="<?php echo base_url('update_news/' . $all_data_key['n_id']) ?>">
-                                     <button type="button" class="btn btn-warning">
+                                        <button type="button" class="btn btn-warning">
                                             <i style="color:white; font-size:10px;" class="fa fa-edit" aria-hidden="true"></i>
                                         </button>
                                     </a>
-                                    <a class="btn-hapus"  href="<?php echo base_url('delete_news/' . $all_data_key['n_id']) ?>">
-                                    
+                                    <a class="btn-hapus" href="<?php echo base_url('delete_news/' . $all_data_key['n_id']) ?>">
+
                                         <button type="button" class="btn btn-danger">
                                             <i style="color:white;font-size:10px;" class="fa fa-trash" aria-hidden="true"></i>
                                         </button>
@@ -99,7 +101,7 @@
                     </tbody>
                 </table>
             </div>
-            
+
         </div>
     </div>
 </div>

@@ -41,7 +41,7 @@
         <div class="">
             <div class="form-group">
                 <label for="desc_ru_label">Description RU</label>
-                <textarea name="desc_ru_label" class="form-control" cols="30" rows="10" id="desc_ru_label"></textarea>
+                <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label"></textarea>
                 <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
                 <div class="my-3"></div>
 

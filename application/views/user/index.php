@@ -52,6 +52,7 @@ object-fit: cover;
 <?php foreach ($get_all_news as $get_all_news_key) { ?>
     <?php $get_all_news_title = json_decode($get_all_news_key['n_title'],TRUE);  ?>
     <?php $get_all_news_description = json_decode($get_all_news_key['n_description'],TRUE);  ?>
+    
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
     <div class="service-item text-center pt-3">
         <div class="p-4">

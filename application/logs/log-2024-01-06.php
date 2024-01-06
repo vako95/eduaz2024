@@ -288,3 +288,68 @@ ERROR - 2024-01-06 06:19:54 --> Severity: Warning --> Trying to access array off
 ERROR - 2024-01-06 06:19:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
 ERROR - 2024-01-06 06:19:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 59
 ERROR - 2024-01-06 06:19:54 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 59
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 59
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 59
+ERROR - 2024-01-06 06:36:12 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:27 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Undefined array key "az" C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:30 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Undefined array key "en" C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:39:32 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 06:46:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 60
+ERROR - 2024-01-06 06:46:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\index.php 61
+ERROR - 2024-01-06 04:05:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:20 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:20 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:35 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:05:35 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:13:23 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:13:23 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:13:39 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:13:39 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:14:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:14:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:14:16 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:14:16 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:16:44 --> Severity: error --> Exception: syntax error, unexpected token ";", expecting "]" C:\xampp\htdocs\eduaz\application\controllers\AdminCon.php 157
+ERROR - 2024-01-06 04:17:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:17:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:17:18 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:17:18 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:18:46 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:18:46 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:18:58 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:18:58 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:27:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:27:06 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:27:17 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:27:17 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:35:02 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:35:02 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:35:13 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-06 04:35:13 --> 404 Page Not Found: Plugins/bower_components
