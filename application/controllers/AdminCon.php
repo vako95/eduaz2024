@@ -99,8 +99,28 @@ class AdminCon extends CI_Controller
 
     public function creat_news_act()
     {
-        $title  = $_POST['title'];
-        $descr  = $_POST['descr'];
+        $title_en  = $this->input->post('title_en',TRUE);
+        $title_az  = $this->input->post('title_az',TRUE);
+        $title_ru  = $this->input->post('title_ru',TRUE);
+       
+        $desc_en  = $this->input->post('desc_en',TRUE);
+        $desc_az  = $this->input->post('desc_az',TRUE);
+        $desc_ru  = $this->input->post('desc_ru',TRUE);
+       
+       
+       
+        $desc_en  = $this->input->post('desc_en',TRUE);
+        $desc_az  = $this->input->post('desc_az',TRUE);
+        $desc_ru  = $this->input->post('desc_ru',TRUE);
+       
+       
+       
+        $desc_en  = $this->input->post('desc_en',TRUE);
+        $desc_az  = $this->input->post('desc_az',TRUE);
+        $desc_ru  = $this->input->post('desc_ru',TRUE);
+       
+       
+    
         $date   = $_POST['date'];
         $cate   = $_POST['cate'];
         $status = $_POST['status'];

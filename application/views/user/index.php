@@ -41,34 +41,7 @@ object-fit: cover;
 
 <!-- Carousel Start -->
 
-<div class="container-fluid p-0 mb-5">
-<div class="owl-carousel header-carousel position-relative">
-<?php foreach ($get_all_news as $get_all_news_key) { ?>
-    <?php $get_all_news_title = json_decode($et_all_news_key['n_title'],TRUE); ?>
-    <?php $get_all_news_desc = json_decode($et_all_news_key['n_desc'],TRUE); ?>
-<div class="owl-carousel-item position-relative">
-<?php if ($get_all_news_key['n_img']) { ?>
-    <img class="img-fluid img_slider " src="<?php echo base_url('uploads/news/' . $get_all_news_key['n_img']); ?>" alt="">
-<?php } else { ?>
-    <img class="img-fluid img_slider" src="<?php echo base_url('public/user/'); ?>img/carousel-2.jpg" alt="">
-<?php } ?>
-<div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-    <div class="container">
-        <div class="row justify-content-start">
-            <div class="col-sm-10 col-lg-8">
-                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"><?php echo $get_all_news_key['n_category']; ?></h5>
-                <h1 class="display-3 text-white animated slideInDown"><?php $get_all_news_title[[$this->sessionb->userdata("site_lang")]]?></h1>
-                <p class="fs-5 text-white mb-4 pb-2"><?php echo $get_all_news_key['n_description']; ?></p>
-                <p class="fs-5 text-white mb-4 pb-2"><?php echo date("d-M-Y", strtotime($get_all_news_key['n_date']));  ?></p>
-                
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<?php } ?>
-</div>
-</div>
+
 <!-- Carousel End -->
 
 
@@ -77,12 +50,14 @@ object-fit: cover;
 <div class="container">
 <div class="row g-4">
 <?php foreach ($get_all_news as $get_all_news_key) { ?>
+    <?php $get_all_news_title = json_decode($get_all_news_key['n_title'],TRUE);  ?>
+    <?php $get_all_news_description = json_decode($get_all_news_key['n_description'],TRUE);  ?>
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
     <div class="service-item text-center pt-3">
         <div class="p-4">
             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-            <h5 class="mb-3"><?php echo $get_all_news_key['n_title']; ?></h5>
-            <p><?php echo $get_all_news_key['n_description']; ?></p>
+            <h5 class="mb-3"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5>
+            <p><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
         </div>
     </div>
 </div>
@@ -137,7 +112,7 @@ object-fit: cover;
 </div>
 <!-- About End -->
 <!-- Categories Start -->
-<!-- <?php if (!empty($all_skilled)) : ?> -->
+<?php if (!empty($all_skilled)) : ?>
         <div class="container-xxl py-5 category">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -175,6 +150,7 @@ object-fit: cover;
                             <?php endforeach; ?>
                         </div>
                     </div>
+
                     <?php if (!empty($reserve_block)) : ?>
                         <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="<?= $wow_delay; ?>s">
                             <a class="position-relative d-block h-100 overflow-hidden">

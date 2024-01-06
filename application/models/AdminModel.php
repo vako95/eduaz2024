@@ -83,14 +83,15 @@ class AdminModel extends CI_model
         $this->db->where('u_id', $id)->delete('user_message');
     }
     public function get_all_skilled()
-    {
-      return  $this->db->order_by('s_id', 'DESC',)->limit(4)->get('skilled_info')->result_array();
-    }
   
-    public function get_skilled_news()
-    {
-        return $this->db->order_by('s_id', 'DESc')->get('skilled_info')->result_array();
-    }
+     
+      {
+
+        return  $this->db->order_by('s_id', 'DESC')->where("s_status","Active")->get('skilled_info')->result_array();
+      }
+  
+  
+   
     public function insert_skilled($data)
     {
         $this->db->insert('skilled_info', $data);

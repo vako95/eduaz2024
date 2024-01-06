@@ -32,8 +32,9 @@ class Site_Model extends CI_Model
  
   public function get_all_skilled()
   {
-    return  $this->db->order_by('s_id', 'DESC',)->limit(2)->get('skilled_info', 1, 0)->result_array();
+    return  $this->db->order_by('s_id', 'DESC')->where("s_status","Active")->get('skilled_info')->result_array();
   }
+  
   public function get_all_skilled2()
   {
     return  $this->db->order_by('s_id', 'DESC',)->limit(1)->get('skilled_info', 1, 1)->result_array();

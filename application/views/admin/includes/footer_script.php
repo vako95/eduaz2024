@@ -26,15 +26,35 @@
 
 <script src="https://cdn.tiny.cloud/1/t3349wm8jxfh2mrqyd2mfnrm608ttnyliyx5m6kuyf8kl9b1/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
-
+<!-- TINY DESCRIPTION Page -->
 <script>
   tinymce.init({
-    selector: '#mytextarea',
+    selector: '#desc_ru_label',
     toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolory | outdent indent',
     plugins: 'code',
     forced_root_block: '""'
   });
 </script>
+
+<script>
+  tinymce.init({
+    selector: '#desc_az_label',
+    toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolory | outdent indent',
+    plugins: 'code',
+    forced_root_block: '""'
+  });
+</script>
+
+<script>
+  tinymce.init({
+    selector: '#desc_en_label',
+    toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolory | outdent indent',
+    plugins: 'code',
+    forced_root_block: '""'
+  });
+</script>
+<!--TINY DESCRIPTION Pagee -->
+
 
 
 <script>
@@ -104,11 +124,11 @@
 </script>
 
 <script>
-  $('body').on('input', '.input-suma-credit', function(){
+  $('body').on('input', '.input-suma-credit', function() {
     this.value = this.value
       .replace(/\D/g, '')
-        .replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ')
-        + ' $';
+      .replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ') +
+      ' $';
   });
 </script>
 
