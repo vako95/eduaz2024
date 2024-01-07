@@ -11,6 +11,7 @@ class AdminModel extends CI_model
     {
         return $this->db->order_by('n_id', 'DESc')->get('news')->result_array();
     }
+    
     public function update($id, $data)
     {
         $this->db->where('n_id', $id)->update('news', $data);

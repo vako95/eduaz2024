@@ -55,11 +55,11 @@
                         foreach ($all_data  as $all_data_key) {
 
                             $say++; ?>
-                            <?php $get_all_news_title = json_decode($all_data_key['n_title'], TRUE);  ?>
-                            <?php $get_all_news_description = json_decode($all_data_key['n_description'], TRUE);  ?>
+
                             <tr>
                                 <td><?php echo $say ?></td>
-
+                                <?php $get_all_news_title = json_decode($all_data_key['n_title'], TRUE);  ?>
+                                <?php $get_all_news_description = json_decode($all_data_key['n_description'], TRUE);  ?>
 
                                 <td><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></td>
                                 <td><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></td>

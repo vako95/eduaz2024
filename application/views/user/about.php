@@ -55,19 +55,21 @@
     <div class="container">
         <div class="row g-4">
 
-        <?php  foreach ($get_all_news as $get_all_news_key) { ?>
-  
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item text-center pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                        <h5 class="mb-3"><?php echo $get_all_news_key['n_title']; ?></h5>
-                        <p><?php echo $get_all_news_key['n_description']; ?></p>
+
+            <?php foreach ($get_all_news as $get_all_news_key) { ?>
+                <?php $get_all_news_title = json_decode($get_all_news_key['n_title'], TRUE);  ?>
+                <?php $get_all_news_description = json_decode($get_all_news_key['n_description'], TRUE);  ?>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5>
+                            <p><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-           <?php } ?>
-           </div>
+            <?php } ?>
+        </div>
     </div>
 </div>
 <!-- Service End -->
@@ -115,11 +117,12 @@
                 </div>
         </div>
     </div>
-<!-- About End -->
+    </div>
+    <!-- About End -->
 
 
-<!-- Team Start -->
-<div class="container-xxl py-5">
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
@@ -127,6 +130,8 @@
             </div>
             <div class="row g-4">
                 <?php foreach ($get_all_news as $get_all_news_key) { ?>
+                    <?php $get_all_news_title = json_decode($get_all_news_key['n_title'],TRUE);  ?>
+    <?php $get_all_news_description = json_decode($get_all_news_key['n_description'],TRUE);  ?>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item bg-light">
                             <div class="overflow-hidden">
@@ -144,7 +149,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4">
-                                <h5 class="mb-0"><?php echo  $get_all_news_key['n_title']; ?></h5>
+                                <h5 class="mb-0"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5>
                                 <small><?php echo  $get_all_news_key['n_category']; ?></small>
                             </div>
                         </div>
@@ -153,14 +158,14 @@
             </div>
         </div>
     </div>
-<!-- Team End -->
+    <!-- Team End -->
 
 
-<!-- Footer Start -->
+    <!-- Footer Start -->
 
-<!-- Footer End -->
+    <!-- Footer End -->
 
 
-<!-- Back to Top -->
-<?php $this->load->view('user/includes/footer'); ?>
-<?php $this->load->view('user/includes/footer_script'); ?>
+    <!-- Back to Top -->
+    <?php $this->load->view('user/includes/footer'); ?>
+    <?php $this->load->view('user/includes/footer_script'); ?>

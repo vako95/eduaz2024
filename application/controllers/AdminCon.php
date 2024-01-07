@@ -8,6 +8,7 @@ class AdminCon extends CI_Controller
         parent::__construct();
 
         $this->load->model('AdminModel');
+        
     }
 
 
@@ -153,8 +154,8 @@ class AdminCon extends CI_Controller
                     'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  str_contains($status,"on") ? TRUE : FALSE ,
-                  
+                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+
                     'n_img'      => $image_data['file_name']
 
 
@@ -182,18 +183,9 @@ class AdminCon extends CI_Controller
                     'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  str_contains($status,"on") ? TRUE : FALSE ,
-                  
-                   
+                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+                  ];
 
-                ];
-
-
-
-                
-               
-
-                
                 $this->AdminModel->insert_news($data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
                 redirect(base_url('admin_news'));
@@ -223,14 +215,29 @@ class AdminCon extends CI_Controller
     public function update_news_act($id)
     {
 
-        $title  = $_POST['title'];
-        $descr  = $_POST['descr'];
-        $date   = $_POST['date'];
-        $cate   = $_POST['cate'];
-        $status = $_POST['status'];
+        $title_en  = $this->input->post('title_en', TRUE);
+        $title_az  = $this->input->post('title_az', TRUE);
+        $title_ru  = $this->input->post('title_ru', TRUE);
 
-        if (!empty($title) && !empty($descr) && !empty($date) && !empty($cate) && !empty($status)) {
+        $desc_en  = $this->input->post('desc_en', TRUE);
+        $desc_az  = $this->input->post('desc_az', TRUE);
+        $desc_ru  = $this->input->post('desc_ru', TRUE);
 
+
+
+        $date  = $this->input->post('date', TRUE);
+        $cate  = $this->input->post('cate', TRUE);
+        $status  = $this->input->post('status', TRUE);
+        if(!empty($title_en) &&
+         !empty($title_az) &&
+         !empty($title_ru) &&
+         !empty($desc_en) &&
+         !empty($desc_az) &&
+         !empty($desc_ru) &&
+         !empty($date) &&
+         !empty($cate) &&
+         !empty($status) 
+        ){
             $config['upload_path']          = './uploads/news/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
             // $config['max_size']             = 100;
@@ -240,48 +247,70 @@ class AdminCon extends CI_Controller
             $this->load->library('upload', $config);
             $this->upload->initialize($config);
 
-
+            
             if ($this->upload->do_upload('image')) {
-                $img     =  $this->upload->data('file_name');
-                $img_ext =  $this->upload->data('file_ext');
+                $image_data    =  $this->upload->data();
+
+                $json_decoded_data_title = [
+                    "en" => $title_en,
+                    "ru" => $title_ru,
+                    "az" => $title_az,
+                ];
+                $json_decoded_data_description = [
+                    "en" => $desc_en,
+                    "ru" => $desc_ru,
+                    "az" => $desc_az,
+                ];
 
                 $data = [
-                    'n_title'        =>  $title,
-                    'n_description'  =>  $descr,
+                    'n_title'        =>   json_encode($json_decoded_data_title),
+                    'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  $status,
-                    'n_img'          =>  $img,
-                    'n_img_ext'      =>  $img_ext,
+                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+
+                    'n_img'      => $image_data['file_name']
 
 
                 ];
-                $data = $this->security->xss_clean($data);
 
                 $this->AdminModel->update($id, $data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla yenilendi.');
                 redirect(base_url('admin_news'));
-            } else {
-                $data = [
-                    'n_title'        =>  $title,
-                    'n_description'  =>  $descr,
-                    'n_date'         =>  $date,
-                    'n_category'     =>  $cate,
-                    'n_status'       =>  $status,
-                ];
 
-                $id = $this->security->xss_clean($id);
-                $data = $this->security->xss_clean($data);
+        }else {
+            $data = [
+                'n_title'        =>   json_encode($json_decoded_data_title),
+                'n_description'  =>   json_encode($json_decoded_data_description),
+                'n_date'         =>  $date,
+                'n_category'     =>  $cate,
+                'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+            ];
 
-                $this->AdminModel->update($id, $data);
-                $this->session->set_flashdata('success', 'Məlumat uğurla yenilendi.');
-                redirect(base_url('admin_news'));
-            }
-        } else {
+            $id = $this->security->xss_clean($id);
+            $data = $this->security->xss_clean($data);
+
+            $this->AdminModel->update($id, $data);
+            $this->session->set_flashdata('success', 'Məlumat uğurla yenilendi.');
+            redirect(base_url('admin_news'));
+        }
+    }
+        else {
 
             $this->session->set_flashdata('error', 'Boşluq buraxmayin!');
             redirect($_SERVER['HTTP_REFERER']);
         }
+        
+    
+
+
+
+
+
+
+
+
+      
     }
 
     public function news_view($id)

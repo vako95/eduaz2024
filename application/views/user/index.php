@@ -141,6 +141,7 @@ object-fit: cover;
 </div>
 </div>
 </div>
+</div>
 <!-- About End -->
 <!-- Categories Start -->
 <?php if (!empty($all_skilled)) : ?>
@@ -315,16 +316,18 @@ object-fit: cover;
 </div>
 <div class="owl-carousel testimonial-carousel position-relative">
 <?php foreach ($get_all_news as $get_all_news_key) { ?>
+    <?php $get_all_news_title = json_decode($get_all_news_key['n_title'],TRUE);  ?>
+    <?php $get_all_news_description = json_decode($get_all_news_key['n_description'],TRUE);  ?>
     <div class="testimonial-item text-center">
         <?php if ($get_all_news_key['n_img']) { ?>
             <img style="width: 80px; height: 80px;" class="border rounded-circle p-2 mx-auto img_student " src="<?php echo base_url('uploads/news/' .  $get_all_news_key['n_img']); ?>">
         <?php } else { ?>
-            <img class="border rounded-circle p-2 mx-auto img_student" src="<?php echo base_url('public/user/'); ?>img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+            <img class="border rounded-circle p-2 mx-auto img_student" src="<?php echo base_url('public/admin/assets/'); ?>img/profile.png" style="width: 80px; height: 80px;">
         <?php  } ?>
-        <h5 class="mb-0"><?php echo  $get_all_news_key['n_title']; ?></h5>
+        <h5 class="mb-0"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5>
         <p><?php echo $get_all_news_key['n_category']; ?></p>
         <div class="testimonial-text bg-light text-center p-4">
-            <p class="mb-0"><?php echo  $get_all_news_key['n_description']; ?></p>
+            <p class="mb-0"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
         </div>
     </div>
 <?php } ?>
