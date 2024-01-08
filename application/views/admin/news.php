@@ -62,7 +62,12 @@
                                 <?php $get_all_news_description = json_decode($all_data_key['n_description'], TRUE);  ?>
 
                                 <td><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></td>
-                                <td><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></td>
+                                
+                                <td>
+                                <a href="<?php echo base_url('admin_news_view/' . $all_data_key['n_id']) ?>">
+                                <i style="  text-align: center;  width: 75%; " class="fa fa-eye " aria-hidden="true"></i>
+                                </a>
+                                </td>
                                 <td> <?php echo $all_data_key['n_date']; ?></td>
                                 <td> <?php echo $all_data_key['n_category']; ?></td>
                                 <td> <?php if ($all_data_key['n_img']) { ?>

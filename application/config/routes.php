@@ -12,6 +12,7 @@ $route['admin_not_found'] = 'AdminCon/notFound';
 $route['admin_profile']   = 'AdminCon/profile';
 
 
+
 $route['admin_news']           = 'AdminCon/news';
 $route['admin_creat_news']     = 'AdminCon/creat_news';
 $route['admin_creat_news_act'] = 'AdminCon/creat_news_act';
@@ -64,12 +65,14 @@ $route['admin_delete_experts/(.*)']   = 'AdminCon/delete_experts_message/$1';
 
 $route['admin_about_skilled']     = 'AdminCon/about_skilled';
 $route['admin_creat_about']       = 'AdminCon/creat_about';
-$route['admin_about_act']         = 'AdminCon/about_act';
-$route['delete_about/(.*)']       = 'AdminCon/delete_about/$1';;
+$route['admin_creat_about_act']         = 'AdminCon/creat_about_act';
+$route['delete_about/(.*)']       = 'AdminCon/delete_about/$1';
+$route['admin_about_view/(.*)'] = 'AdminCon/about_view/$1';
 
-
-$route['update_about_skilled/(.*)']     = 'AdminCon/update_about/$1';
+$route['update_about/(.*)']     = 'AdminCon/update_about/$1';
 $route['update_about_act/(.*)'] = 'AdminCon/update_about_act/$1';
+
+
 
 
 //USERCON

@@ -35,12 +35,13 @@
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                <h1 class="display-3 text-white animated slideInDown"><?php echo $this->lang->line('about us'); ?></h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                        <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('index')?>"><?php echo $this->lang->line('home'); ?></a></li>
+
+            
+                       
                     </ol>
                 </nav>
             </div>
@@ -85,10 +86,12 @@
                 </div>
             </div>
             <?php foreach ($all_about as $all_about_key) { ?>
+                <?php $get_all_news_title = json_decode($all_about_key['b_title'], TRUE);  ?>
+                <?php $get_all_news_description = json_decode($all_about_key['b_description'], TRUE);  ?>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4"><?php echo $all_about_key['b_title']; ?></h1>
-                    <p class="mb-4"><?php echo $all_about_key['b_description']; ?></p>
+                    <h6 class="section-title bg-white text-start text-primary pe-3"><?php echo $this->lang->line('about us'); ?></h6>
+                    <h1 class="mb-4"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h1>
+                    <p class="mb-4"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
                     <br>
                     <br>
                     <div class="row gy-2 gx-4 mb-4">
@@ -117,55 +120,55 @@
                 </div>
         </div>
     </div>
-    </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3"><?php echo $this->lang->line('instructors'); ?></h6>
+            <h1 class="mb-5"><?php echo $this->lang->line('expert instructors'); ?></h1>
+        </div>
+        <div class="row g-4">
+        <?php foreach ($experts_news as $get_experts_news_key) { ?>
+    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="team-item bg-light">
+            <div class="overflow-hidden">
+            <a class="position-relative d-block overflow-hidden" href="<?php echo base_url('experts_single/' .$get_experts_news_key['e_id']); ?>">
+                <?php if ($get_experts_news_key['e_img']) { ?>
+                    <img class="img-fluid imgexp" src="<?php echo base_url('uploads/news/' . $get_experts_news_key['e_img']); ?>" alt="">
+                <?php } else { ?> 
+                    <img class="img-fluid" src="<?php echo base_url('public/user/'); ?>img/team-1.jpg" alt="">
+                <?php  } ?>
+                </a>
             </div>
-            <div class="row g-4">
-                <?php foreach ($get_all_news as $get_all_news_key) { ?>
-                    <?php $get_all_news_title = json_decode($get_all_news_key['n_title'],TRUE);  ?>
-    <?php $get_all_news_description = json_decode($get_all_news_key['n_description'],TRUE);  ?>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item bg-light">
-                            <div class="overflow-hidden">
-                                <?php if ($get_all_news_key['n_img']) { ?>
-                                    <img class="img-fluid imgexp" src="<?php echo base_url('uploads/news/' . $get_all_news_key['n_img']); ?>" alt="">
-                                <?php } else { ?>
-                                    <img class="img-fluid" src="<?php echo base_url('public/user/'); ?>img/team-1.jpg" alt="">
-                                <?php  } ?>
-                            </div>
-                            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4">
-                                <h5 class="mb-0"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5>
-                                <small><?php echo  $get_all_news_key['n_category']; ?></small>
-                            </div>
-                        </div>
-                    </div>
-                <?php } ?>
+            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                    <a class="btn btn-sm-square btn-primary mx-1" href="https://www.facebook.com/Stimul.edu.az"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-primary mx-1" href="https://twitter.com/STIMUL_AZ"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square btn-primary mx-1" href="https://www.instagram.com/stimul.az/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="text-center p-4">
+                <h5 class="mb-0"><?php echo  $get_experts_news_key['e_title']; ?></h5>
+                <small><?php echo   $get_experts_news_key['e_category']; ?></small>
             </div>
         </div>
     </div>
-    <!-- Team End -->
+<?php } ?>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
 
 
-    <!-- Footer Start -->
+<!-- Footer Start -->
 
-    <!-- Footer End -->
+<!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <?php $this->load->view('user/includes/footer'); ?>
-    <?php $this->load->view('user/includes/footer_script'); ?>
+<!-- Back to Top -->
+<?php $this->load->view('user/includes/footer'); ?>
+<?php $this->load->view('user/includes/footer_script'); ?>

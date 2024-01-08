@@ -21,6 +21,8 @@
         <strong><?php echo $this->session->flashdata('error');?></strong> 
       </div>
     <?php } ?>
+    </div>
+    </div>
     <?php $get_all_news_title = json_decode($get_single_news['n_title'],TRUE);  ?>
     <?php $get_all_news_description = json_decode($get_single_news['n_description'],TRUE);  ?>
         <form action="<?php echo base_url('update_news_act/'.$get_single_news['n_id']); ?>" method="post" enctype="multipart/form-data" class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
@@ -42,8 +44,7 @@
             <label for="title_en_label">Title EN</label>
             <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
             <div class="my-3"></div>
-        </div>
-    </div>
+    
     <br>
     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
         <!-- <label for="mytextarea">Description</label>
@@ -54,7 +55,7 @@
 
 
         <label for="desc_ru_label">Description RU</label>
-                <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label" <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?>></textarea>
+                <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label" ><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
                 <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
                 <div class="my-3"></div>
 
@@ -62,12 +63,12 @@
 
         
                 <label for="desc_en_label">Description EN</label>
-                <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label" <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?>></textarea>
+                <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label"> <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
                 <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
                 <div class="my-3"></div>
 
                 <label for="desc_az_label">Description AZ</label>
-                <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label" <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?>></textarea>
+                <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label" ><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
                 <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
                 <div class="my-3"></div>
     </div>

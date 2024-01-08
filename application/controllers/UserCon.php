@@ -30,6 +30,7 @@ class UserCon extends CI_controller
     {
         $data['get_all_news'] = $this->Site_Model->get_all_news();
         $data['all_about'] = $this->Site_Model->get_all_about();
+        $data['experts_news'] = $this->Site_Model->get_experts_news();
 
         $this->load->view('user/about', $data);
     }

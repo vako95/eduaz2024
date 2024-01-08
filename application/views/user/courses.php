@@ -39,9 +39,9 @@
                 <h1 class="display-3 text-white animated slideInDown">Courses</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">Courses</li>
+                        <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('index') ?>">Home</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('about') ?>">About</a></li>
+                      
                     </ol>
                 </nav>
             </div>

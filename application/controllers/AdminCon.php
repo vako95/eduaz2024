@@ -8,7 +8,6 @@ class AdminCon extends CI_Controller
         parent::__construct();
 
         $this->load->model('AdminModel');
-        
     }
 
 
@@ -184,7 +183,7 @@ class AdminCon extends CI_Controller
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
                     'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
-                  ];
+                ];
 
                 $this->AdminModel->insert_news($data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
@@ -228,16 +227,17 @@ class AdminCon extends CI_Controller
         $date  = $this->input->post('date', TRUE);
         $cate  = $this->input->post('cate', TRUE);
         $status  = $this->input->post('status', TRUE);
-        if(!empty($title_en) &&
-         !empty($title_az) &&
-         !empty($title_ru) &&
-         !empty($desc_en) &&
-         !empty($desc_az) &&
-         !empty($desc_ru) &&
-         !empty($date) &&
-         !empty($cate) &&
-         !empty($status) 
-        ){
+        if (
+            !empty($title_en) &&
+            !empty($title_az) &&
+            !empty($title_ru) &&
+            !empty($desc_en) &&
+            !empty($desc_az) &&
+            !empty($desc_ru) &&
+            !empty($date) &&
+            !empty($cate) &&
+            !empty($status)
+        ) {
             $config['upload_path']          = './uploads/news/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
             // $config['max_size']             = 100;
@@ -247,7 +247,7 @@ class AdminCon extends CI_Controller
             $this->load->library('upload', $config);
             $this->upload->initialize($config);
 
-            
+
             if ($this->upload->do_upload('image')) {
                 $image_data    =  $this->upload->data();
 
@@ -277,40 +277,40 @@ class AdminCon extends CI_Controller
                 $this->AdminModel->update($id, $data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla yenilendi.');
                 redirect(base_url('admin_news'));
+            } else {
+                $json_decoded_data_title = [
+                    "en" => $title_en,
+                    "ru" => $title_ru,
+                    "az" => $title_az,
+                ];
+                $json_decoded_data_description = [
+                    "en" => $desc_en,
+                    "ru" => $desc_ru,
+                    "az" => $desc_az,
+                ];
 
-        }else {
-            $data = [
-                'n_title'        =>   json_encode($json_decoded_data_title),
-                'n_description'  =>   json_encode($json_decoded_data_description),
-                'n_date'         =>  $date,
-                'n_category'     =>  $cate,
-                'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
-            ];
 
-            $id = $this->security->xss_clean($id);
-            $data = $this->security->xss_clean($data);
+                $data = [
+                    'n_title'        =>   json_encode($json_decoded_data_title),
+                    'n_description'  =>   json_encode($json_decoded_data_description),
+                    'n_date'         =>  $date,
+                    'n_category'     =>  $cate,
+                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+                ];
 
-            $this->AdminModel->update($id, $data);
-            $this->session->set_flashdata('success', 'Məlumat uğurla yenilendi.');
-            redirect(base_url('admin_news'));
-        }
-    }
-        else {
+
+                $id = $this->security->xss_clean($id);
+                $data = $this->security->xss_clean($data);
+
+                $this->AdminModel->update($id, $data);
+                $this->session->set_flashdata('success', 'Məlumat uğurla yenilendi.');
+                redirect(base_url('admin_news'));
+            }
+        } else {
 
             $this->session->set_flashdata('error', 'Boşluq buraxmayin!');
             redirect($_SERVER['HTTP_REFERER']);
         }
-        
-    
-
-
-
-
-
-
-
-
-      
     }
 
     public function news_view($id)
@@ -320,6 +320,237 @@ class AdminCon extends CI_Controller
         $data['get_single_news'] = $this->AdminModel->get_single_news($id);
         $this->load->view('admin/news_view', $data);
     }
+
+  //About news/////////////////////////////
+  public function about_view($id)
+  {
+      $id = $this->security->xss_clean($id);
+
+      $data['get_single_about'] = $this->AdminModel->get_single_about($id);
+      $this->load->view('admin/about_view', $data);
+  }
+public function creat_about()
+{
+    $this->load->view('admin/creat_pages/creat_about');
+}
+public function creat_about_act()
+{
+    $title_en  = $this->input->post('title_en', TRUE);
+    $title_az  = $this->input->post('title_az', TRUE);
+    $title_ru  = $this->input->post('title_ru', TRUE);
+
+    $desc_en  = $this->input->post('desc_en', TRUE);
+    $desc_az  = $this->input->post('desc_az', TRUE);
+    $desc_ru  = $this->input->post('desc_ru', TRUE);
+
+
+
+    $date  = $this->input->post('date', TRUE);
+    $cate  = $this->input->post('cate', TRUE);
+    $status  = $this->input->post('status');
+
+
+    if (
+        !empty($title_en) &&
+        !empty($title_az) &&
+        !empty($title_ru) &&
+        !empty($desc_en) &&
+        !empty($desc_az) &&
+        !empty($desc_ru) &&
+        !empty($cate) &&
+        !empty($status)
+    ) {
+
+        $config['upload_path']          = './uploads/news/';
+        $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
+        // $config['max_size']             = 100;
+        // $config['max_width']            = 1024;
+        // $config['max_height']           = 768;
+
+        $this->load->library('upload', $config);
+        $this->upload->initialize($config);
+
+        if ($this->upload->do_upload('image')) {
+            $image_data    =  $this->upload->data();
+
+            $json_decoded_data_title = [
+                "en" => $title_en,
+                "ru" => $title_ru,
+                "az" => $title_az,
+            ];
+            $json_decoded_data_description = [
+                "en" => $desc_en,
+                "ru" => $desc_ru,
+                "az" => $desc_az,
+            ];
+
+            $data = [
+                'b_title'        =>   json_encode($json_decoded_data_title),
+                'b_description'  =>   json_encode($json_decoded_data_description),
+                'b_date'         =>  $date,
+                'b_category'     =>  $cate,
+                'b_status'       =>  $status,
+
+                'b_img'      => $image_data['file_name']
+
+
+            ];
+
+
+            $this->AdminModel->insert_about($data);
+            $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
+            redirect(base_url('admin_about_skilled'));
+        } else {
+
+            $json_decoded_data_title = [
+                "en" => $title_en,
+                "ru" => $title_ru,
+                "az" => $title_az,
+            ];
+            $json_decoded_data_description = [
+                "en" => $desc_en,
+                "ru" => $desc_ru,
+                "az" => $desc_az,
+            ];
+
+            $data = [
+                'b_title'        =>   json_encode($json_decoded_data_title),
+                'b_description'  =>   json_encode($json_decoded_data_description),
+                'b_date'         =>  $date,
+                'b_category'     =>  $cate,
+                'b_status'       =>  $status,
+            ];
+
+            $this->AdminModel->insert_about($data);
+            $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
+            redirect(base_url('admin_about_skilled'));
+        }
+    } else {
+        $this->session->set_flashdata('error', 'Boşluq buraxmayin!');
+        redirect(base_url('admin_creat_about'));
+    }
+}
+public function delete_about($id)
+{
+    $id = $this->security->xss_clean($id);
+
+    $this->AdminModel->delete_about($id);
+    $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla silindi.');
+    redirect(base_url('admin_about_skilled'));
+}
+
+public function update_about($id)
+{
+    $id = $this->security->xss_clean($id);
+    $data['get_single_about'] = $this->AdminModel->get_single_about($id);
+    $this->load->view('admin/uptade_about', $data);
+}
+
+public function update_about_act($id)
+{
+    $title_en  = $this->input->post('title_en', TRUE);
+    $title_az  = $this->input->post('title_az', TRUE);
+    $title_ru  = $this->input->post('title_ru', TRUE);
+
+    $desc_en  = $this->input->post('desc_en', TRUE);
+    $desc_az  = $this->input->post('desc_az', TRUE);
+    $desc_ru  = $this->input->post('desc_ru', TRUE);
+
+
+
+    $date  = $this->input->post('date', TRUE);
+    $cate  = $this->input->post('cate', TRUE);
+    $status  = $this->input->post('status');
+    if (
+        !empty($title_en) &&
+        !empty($title_az) &&
+        !empty($title_ru) &&
+        !empty($desc_en) &&
+        !empty($desc_az) &&
+        !empty($desc_ru) &&
+        !empty($date) &&
+        !empty($cate) &&
+        !empty($status)
+    ) {
+        $config['upload_path']          = './uploads/news/';
+        $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
+        // $config['max_size']             = 100;
+        // $config['max_width']            = 1024;
+        // $config['max_height']           = 768;
+
+        $this->load->library('upload', $config);
+        $this->upload->initialize($config);
+
+
+        if ($this->upload->do_upload('image')) {
+            $image_data    =  $this->upload->data();
+
+            $json_decoded_data_title = [
+                "en" => $title_en,
+                "ru" => $title_ru,
+                "az" => $title_az,
+            ];
+            $json_decoded_data_description = [
+                "en" => $desc_en,
+                "ru" => $desc_ru,
+                "az" => $desc_az,
+            ];
+
+            $data = [
+                'b_title'        =>   json_encode($json_decoded_data_title),
+                'b_description'  =>   json_encode($json_decoded_data_description),
+                'b_date'         =>  $date,
+                'b_category'     =>  $cate,
+                'b_status'       =>  $status,
+                'b_img'      => $image_data['file_name']
+
+
+            ];
+
+            $this->AdminModel->update_about($id, $data);
+            $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla yenilendi.');
+            redirect(base_url('admin_news'));
+        } else {
+            $json_decoded_data_title = [
+                "en" => $title_en,
+                "ru" => $title_ru,
+                "az" => $title_az,
+            ];
+            $json_decoded_data_description = [
+                "en" => $desc_en,
+                "ru" => $desc_ru,
+                "az" => $desc_az,
+            ];
+
+
+            $data = [
+                'b_title'        =>   json_encode($json_decoded_data_title),
+                'b_description'  =>   json_encode($json_decoded_data_description),
+                'b_date'         =>  $date,
+                'b_category'     =>  $cate,
+                'b_status'       =>  $status,
+            ];
+
+
+            $id = $this->security->xss_clean($id);
+            $data = $this->security->xss_clean($data);
+
+            $this->AdminModel->update_about($id, $data);
+            $this->session->set_flashdata('success', 'Məlumat uğurla yenilendi.');
+            redirect(base_url('admin_about_skilled'));
+        }
+    } else {
+
+        $this->session->set_flashdata('error', 'Boşluq buraxmayin!');
+        redirect($_SERVER['HTTP_REFERER']);
+    }
+}
+
+  
+  //About news/////////////////////////////
+
+
+
 
     //experts
     public function experts()
@@ -816,71 +1047,7 @@ class AdminCon extends CI_Controller
     }
 
     //popular courses
-    //About skilled/////////////////////////////
-    public function creat_about()
-    {
-        $this->load->view('admin/creat_pages/creat_about');
-    }
-    public function about_act()
-    {
-        $title  = $_POST['title'];
-        $descr  = $_POST['descr'];
-        $date   = $_POST['date'];
-        $cate   = $_POST['cate'];
-        $status = $_POST['status'];
-
-        if (!empty($title) && !empty($descr) && !empty($date) && !empty($cate) && !empty($status)) {
-
-            $config['upload_path']          = './uploads/news/';
-            $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
-            // $config['max_size']             = 100;
-            // $config['max_width']            = 1024;
-            // $config['max_height']           = 768;
-
-            $this->load->library('upload', $config);
-            $this->upload->initialize($config);
-
-            if ($this->upload->do_upload('image')) {
-                $img     =  $this->upload->data('file_name');
-                $img_ext =  $this->upload->data('file_ext');
-
-                $data = [
-                    'b_title'        =>  $title,
-                    'b_description'  =>  $descr,
-                    'b_date'         =>  $date,
-                    'b_category'     =>  $cate,
-                    'b_status'       =>  $status,
-                    'b_img'          => $img,
-                    'b_img_ext'      => $img_ext,
-
-
-                ];
-
-                $data = $this->security->xss_clean($data);
-
-                $this->AdminModel->insert_about($data);
-                $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
-                redirect(base_url('admin_news_skilled'));
-            } else {
-                $data = [
-                    'b_title'        =>  $title,
-                    'b_description'  =>  $descr,
-                    'b_date'         =>  $date,
-                    'b_category'     =>  $cate,
-                    'b_status'       =>  $status,
-                ];
-
-                $data = $this->security->xss_clean($data);
-
-                $this->AdminModel->insert_about($data);
-                $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
-                redirect(base_url('admin_about_skilled'));
-            }
-        } else {
-            $this->session->set_flashdata('error', 'Boşluq buraxmayin!');
-            redirect(base_url('admin_creat_about'));
-        }
-    }
+  
     public function about_skilled()
     {
         $data['all_about'] = $this->AdminModel->get_about_news();
@@ -896,71 +1063,6 @@ class AdminCon extends CI_Controller
     }
 
 
-    public function update_about_act($id)
-    {
-
-        $title  = $_POST['title'];
-        $descr  = $_POST['descr'];
-        $date   = $_POST['date'];
-        $cate   = $_POST['cate'];
-        $status = $_POST['status'];
-
-        if (!empty($title) && !empty($descr) && !empty($date) && !empty($cate) && !empty($status)) {
-
-            $config['upload_path']          = './uploads/news/';
-            $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
-            // $config['max_size']             = 100;
-            // $config['max_width']            = 1024;
-            // $config['max_height']           = 768;
-
-            $this->load->library('upload', $config);
-            $this->upload->initialize($config);
-
-
-            if ($this->upload->do_upload('image')) {
-                $img     =  $this->upload->data('file_name');
-                $img_ext =  $this->upload->data('file_ext');
-
-                $data = [
-                    'b_title'        =>  $title,
-                    'b_description'  =>  $descr,
-                    'b_date'         =>  $date,
-                    'b_category'     =>  $cate,
-                    'b_status'       =>  $status,
-                    'b_img'          =>  $img,
-                    'b_img_ext'      =>  $img_ext,
-
-
-                ];
-
-                $id = $this->security->xss_clean($id);
-                $data = $this->security->xss_clean($data);
-
-                $this->AdminModel->update_about($id, $data);
-                $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla yenilendi.');
-                redirect(base_url('admin_about_skilled'));
-            } else {
-                $data = [
-                    'b_title'        =>  $title,
-                    'b_description'  =>  $descr,
-                    'b_date'         =>  $date,
-                    'b_category'     =>  $cate,
-                    'b_status'       =>  $status,
-                ];
-
-                $id = $this->security->xss_clean($id);
-                $data = $this->security->xss_clean($data);
-
-                $this->AdminModel->update_about($id, $data);
-                $this->session->set_flashdata('success', 'Məlumat uğurla yenilendi.');
-                redirect(base_url('admin_about_skilled'));
-            }
-        } else {
-
-            $this->session->set_flashdata('error', 'Boşluq buraxmayin!');
-            redirect($_SERVER['HTTP_REFERER']);
-        }
-    }
 
     //Uptade skilled/////////////////////////////
     public function user_reguest()

@@ -35,6 +35,12 @@
                     </a>
                 </li>
                 <li class="sidebar-item">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url('admin_about_skilled'); ?>" aria-expanded="false">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        <span class="hide-menu">News About</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url('admin_news_skilled'); ?>" aria-expanded="false">
                         <i class="fa fa-bullhorn" aria-hidden="true"></i>
                         <span class="hide-menu">News skilled</span>

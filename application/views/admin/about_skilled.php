@@ -49,13 +49,19 @@
                     </thead>
                     <tbody>
                         <?php foreach ($all_about as $all_about_key) { ?>
+                            <?php $get_all_news_title = json_decode($all_about_key['b_title'], TRUE);  ?>
+                                <?php $get_all_news_description = json_decode($all_about_key['b_description'], TRUE);  ?>
 
                             <tr>
                                 <td>1</td>
 
 
-                                <td><?php echo $all_about_key['b_title']; ?></td>
-                                <td><?php echo $all_about_key['b_description']; ?></td>
+                                <td><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></td>
+                                <td>
+                                <a href="<?php echo base_url('admin_about_view/' . $all_about_key['b_id']) ?>">
+                                <i style="  text-align: center;  width: 75%; " class="fa fa-eye " aria-hidden="true"></i>
+                                </a>
+                                </td>
                                 <td><?php echo $all_about_key['b_date']; ?></td>
                                 <td><?php echo $all_about_key['b_category']; ?></td>
                                 <td><?php  if ($all_about_key['b_img']) { ?>
@@ -69,13 +75,18 @@
 
 
                                 <td>
-                                    <a href="<?php echo base_url('update_about_skilled/' . $all_about_key['b_id']) ?>">
+                                <a href="<?php echo base_url('admin_about_view/' . $all_about_key['b_id']) ?>">
+                                        <button type="button" class="btn btn-info">
+                                            <i style="color:white;   font-size:10px;" class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                    </a>
+                                    <a href="<?php echo base_url('update_about/' . $all_about_key['b_id']) ?>">
                                     
                                         <button type="button" class="btn btn-warning">
                                             <i style="color:white; font-size:10px;" class="fa fa-edit" aria-hidden="true"></i>
                                         </button>
                                     </a>
-                                    <a class="btn-hapus"  href="<?php echo base_url('delete_skilled/' . $all_about_key['b_id']) ?>">
+                                    <a class="btn-hapus"  href="<?php echo base_url('delete_about/' . $all_about_key['b_id']) ?>">
                                     
                                         <button type="button" class="btn btn-danger">
                                             <i style="color:white;font-size:10px;" class="fa fa-trash" aria-hidden="true"></i>

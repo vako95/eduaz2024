@@ -9,8 +9,9 @@ class AdminModel extends CI_model
 
     public function get_all_news()
     {
-        return $this->db->order_by('n_id', 'DESc')->get('news')->result_array();
+        return $this->db->order_by('n_id', 'DESC')->get('news')->result_array();
     }
+   
     
     public function update($id, $data)
     {
@@ -19,7 +20,7 @@ class AdminModel extends CI_model
    //expert
    public function get_experts_news()
    {
-       return $this->db->order_by('e_id', 'DESc')->get('experts')->result_array();
+       return $this->db->order_by('e_id', 'DESC')->get('experts')->result_array();
    }
    public function delete_experts($id)
    {
@@ -47,15 +48,17 @@ class AdminModel extends CI_model
    {
        return $this->db->where('b_id', $id)->get('about_info')->row_array();
    }
+   
    public function update_about($id, $data)
    {
        $this->db->where('b_id', $id)->update('about_info', $data);
    }
+   public function insert_about($data)
+   {
+       $this->db->insert('about_info', $data);
+   }
    //about
-    public function insert_about($data)
-    {
-        $this->db->insert('about_info', $data);
-    }
+  
     public function insert_experts($data)
     {
         $this->db->insert('experts', $data);
