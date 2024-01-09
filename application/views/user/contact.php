@@ -14,12 +14,12 @@
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <h1 class="display-3 text-white animated slideInDown">Contact</h1>
+                <h1 class="display-3 text-white animated slideInDown"><?php echo $this->lang->line('contact'); ?></h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                        <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('index') ?>"><?php echo $this->lang->line('home'); ?></a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('about') ?>"><?php echo $this->lang->line('about'); ?></a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page"><?php echo $this->lang->line('contact'); ?></li>
                     </ol>
                 </nav>
             </div>
@@ -33,20 +33,20 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-            <h1 class="mb-5">Contact For Any Query</h1>
+            <h6 class="section-title bg-white text-center text-primary px-3"><?php echo $this->lang->line('contact us'); ?></h6>
+            <h1 class="mb-5"><?php echo $this->lang->line('contact for any'); ?></h1>
         </div>
 
         <div class="row g-4">
             <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <h5>Get In Touch</h5>
-                <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                <h5><?php echo $this->lang->line('touch'); ?></h5>
+                <p class="mb-4"><?php echo $this->lang->line('messager'); ?></p>
                 <div class="d-flex align-items-center mb-3">
                     <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
                         <i class="fa fa-map-marker-alt text-white"></i>
                     </div>
                     <div class="ms-3">
-                        <h5 class="text-primary">Office</h5>
+                        <h5 class="text-primary"><?php echo $this->lang->line('office'); ?></h5>
                         <a style="color:black;" href="https://www.google.com/maps/place/Caspian+Plaza/@40.38534,49.828682,16z/data=!4m6!3m5!1s0x40307d9be60052ab:0xd7852fa710c6b11a!8m2!3d40.3853403!4d49.8286822!16s%2Fg%2F11clvgws0m?hl=en&entry=ttu">
                             <p style="color:black;" class="mb-2">44 Jafar Jabbarli street, Baku 1065</p>
                         </a>
@@ -57,7 +57,7 @@
                         <i class="fa fa-phone-alt text-white"></i>
                     </div>
                     <div class="ms-3">
-                        <h5 class="text-primary">Mobile</h5>
+                        <h5 class="text-primary"><?php echo $this->lang->line('mobile'); ?></h5>
                         <p style="color: #99a3a4;" class="mb-0"><a class="topphones" href="tel:+994506610117"><b style="color: #99a3a4;">(050)</b> <b style="color: #99a3a4;">6610117</b></a></p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         <i class="fa fa-envelope-open text-white"></i>
                     </div>
                     <div class="ms-3">
-                        <h5 class="text-primary">Email</h5>
+                        <h5 class="text-primary"><?php echo $this->lang->line('email'); ?></h5>
                         <p style="color:black;" class=""> <a style="color:black;" href="mailto:office@stimul-az.com">office@stimul.az</a></p>
                     </div>
                 </div>
@@ -93,29 +93,29 @@
                         <div class="col-md-6">
                             <div class="form-floating">
                                 <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-                                <label for="name">Your Name</label>
+                                <label for="name"><?php echo $this->lang->line('your name'); ?></label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
                                 <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-                                <label for="email">Your Email</label>
+                                <label for="email"><?php echo $this->lang->line('your mail'); ?></label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
                                 <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
-                                <label for="subject">Subject</label>
+                                <label for="subject"><?php echo $this->lang->line('subject'); ?></label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
                                 <textarea name="message" class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                <label for="message">Message</label>
+                                <label for="message"><?php echo $this->lang->line('message'); ?></label>
                             </div>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            <button class="btn btn-primary w-100 py-3" type="submit"><?php echo $this->lang->line('send message'); ?></button>
                         </div>
                     </div>
                 </form>

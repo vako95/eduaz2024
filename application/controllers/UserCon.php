@@ -37,23 +37,28 @@ class UserCon extends CI_controller
     
     public function contact()
     {
-        $data['get_all_news'] = $this->Site_Model->get_all_news();
+        $data['all_skilled'] = $this->Site_Model->get_all_skilled();
+     
         $this->load->view('user/contact', $data);
     }
     public function courses()
     {
-
-        $this->load->view('user/courses');
+        $data['experts_news'] = $this->Site_Model->get_experts_news();
+        $data['get_all_news'] = $this->Site_Model->get_all_news();
+        $data['all_skilled'] = $this->Site_Model->get_all_skilled();
+        $this->load->view('user/courses',  $data);
     }
     public function team()
     {
+        $data['experts_news'] = $this->Site_Model->get_experts_news();
 
-        $this->load->view('user/team');
+        $this->load->view('user/team',$data);
     }
     public function testimonial()
     {
+        $data['experts_news'] = $this->Site_Model->get_experts_news();
 
-        $this->load->view('user/testimonial');
+        $this->load->view('user/testimonial', $data);
     }
     public function error_404()
     {
@@ -62,8 +67,8 @@ class UserCon extends CI_controller
     }
     public function contactAct()
     {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
+        $name    = $_POST['name'];
+        $email   = $_POST['email'];
         $subject = $_POST['subject'];
         $message = $_POST['message'];
 

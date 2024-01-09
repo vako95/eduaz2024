@@ -21,70 +21,90 @@
                 <strong><?php echo $this->session->flashdata('error'); ?></strong>
             </div>
         <?php } ?>
-        <form action="<?php echo base_url('update_experts_act/' . $get_single_experts['e_id']); ?>" method="post" enctype="multipart/form-data" class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
-            <label for="title">Title</label>
-            <input name="title" type="text" class="form-control" id="title" placeholder="Enter title" value="<?php echo $get_single_experts['e_title']; ?>">
     </div>
+</div>
+
+<?php $get_all_news_title = json_decode($get_single_instructor['e_title'], TRUE);  ?>
+<?php $get_all_news_description = json_decode($get_single_instructor['e_description'], TRUE);  ?>
+<form action="<?php echo base_url('update_experts_act/' . $get_single_instructor['e_id']); ?>" method="post" enctype="multipart/form-data" class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+    <!-- <label for="title">Title</label>
+            <input name="title" type="text" class="form-control" id="title" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>"> -->
+    <label for="title_az_label">Title AZ</label>
+    <input name="title_az" type="text" class="form-control" id="title_az_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <div class="my-3"></div>
+    <label for="title_ru_label">Title RU</label>
+    <input name="title_ru" type="text" class="form-control" id="title_ru_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <div class="my-3"></div>
+    <label for="title_en_label">Title EN</label>
+    <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <div class="my-3"></div>
+
     <br>
-    <!-- <div class="form-row">
-        <label for="price">Price</label>
-        <input class="input-suma-credit form-control" id="price" type="text" name="price" inputmode="decimal" autocomplete="off" value="<?php echo $get_single_experts['e_price']; ?>">
-    </div> -->
-    <!-- <div class="col-xs-6 col-md-2 col-lg-2 col-sm-2" style="float: left;">
-        <label for="student">Students</label>
-        <input name="student" type="number" class="form-control" id="student" value="<?php echo $get_single_experts['e_student']; ?>">
-    </div> -->
-
-    <!-- <div class="col-xs-6 col-md-2 col-lg-2 col-sm-2" style="float: left;">
-        <label for="name">Name</label>
-        <input name="name" type="text" class="form-control" id="name" placeholder="Enter title" value="<?php echo $get_single_experts['e_name']; ?>">
-    </div> -->
     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
-        <label for="mytextarea">Description</label>
+        <!-- <label for="mytextarea">Description</label>
 
-        <textarea name="descr" class="form-control" cols="30" rows="10" id="mytextarea"><?php echo $get_single_experts['e_description']; ?></textarea>
+        <textarea name="descr" class="form-control" cols="30" rows="10" id="mytextarea"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
         <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
 
+
+
+        <label for="desc_ru_label">Description RU</label>
+        <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+        <div class="my-3"></div>
+
+
+
+
+        <label for="desc_en_label">Description EN</label>
+        <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label"> <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+        <div class="my-3"></div>
+
+        <label for="desc_az_label">Description AZ</label>
+        <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+        <div class="my-3"></div>
     </div>
 
 
     <br>
     <div class="col-xs-6 col-md-2 col-lg-2 col-sm-2" style="float: left;">
         <label for="date">Date</label>
-        <input name="date" type="date" class="form-control" id="date" value="<?php echo $get_single_experts['e_date']; ?>">
+        <input name="date" type="date" class="form-control" id="date" value="<?php echo $get_single_instructor['e_date']; ?>">
 
     </div>
     <div class="col-xs-6 col-md-3 col-lg-3 col-sm-3" style="float: left; margin:0px 25px;">
         <label for="cate">Category</label>
         <select name="cate" class="form-control" id="cate">
-            <option <?php if ($get_single_experts['e_category'] == "") {
+            <option <?php if ($get_single_instructor['e_category'] == "") {
                         echo "SELECTED";
                     } ?> value="">-Select-</option>
-            <option <?php if ($get_single_experts['e_category'] == "Web Design") {
+            <option <?php if ($get_single_instructor['e_category'] == "Web") {
                         echo "SELECTED";
-                    } ?> value="Web Design">Web Desing</option>
-            <option <?php if ($get_single_experts['e_category'] == "Craphic Design") {
+                    } ?> value="Web">Web Desing</option>
+            <option <?php if ($get_single_instructor['e_category'] == "Craphic") {
                         echo "SELECTED";
-                    } ?> value="Craphic Desig">Craphic Design</option>
-            <option <?php if ($get_single_experts['e_category'] == "Video Editing") {
+                    } ?> value="Craphic">Craphic Design</option>
+            <option <?php if ($get_single_instructor['e_category'] == "Video") {
                         echo "SELECTED";
-                    } ?> value="Video Editing">Video Editing</option>
-            <option <?php if ($get_single_experts['e_category'] == "Online Marketing") {
+                    } ?> value="Video">Video Editing</option>
+            <option <?php if ($get_single_instructor['e_category'] == "Online") {
                         echo "SELECTED";
-                    } ?> value="Online Marketing">Online Marketing</option>
+                    } ?> value="Online">Online Marketing</option>
         </select>
     </div>
     <div class="col-xs-6 col-md-3 col-lg-3 col-sm-3" style="float: left;">
         <div class="row">
             <label for="status">Status</label>
             <select name="status" class="form-control" id="status">
-                <option <?php if ($get_single_experts['e_status'] == "") {
+                <option <?php if ($get_single_instructor['e_status'] == "") {
                             echo "SELECTED";
                         } ?> value="">-Select-</option>
-                <option <?php if ($get_single_experts['e_status'] == "Active") {
+                <option <?php if ($get_single_instructor['e_status'] == "Active") {
                             echo "SELECTED";
                         } ?> value="Active">Active</option>
-                <option <?php if ($get_single_experts['e_status'] == "Deactive") {
+                <option <?php if ($get_single_instructor['e_status'] == "Deactive") {
                             echo "SELECTED";
                         } ?> value="Deactive">Deactive</option>
             </select>
@@ -95,8 +115,8 @@
 
         <label for="image">Image <br>
             <img style="width: 40px; height:40px; object-fit:cover; cursor:pointer;" src="<?php echo base_url('public/admin/assets/img/folder.gif'); ?>" alt="" style="cursor:pointer;">
-            <?php if ($get_single_experts['e_img']) { ?>
-                <img style="width: 40px; height:40px; object-fit:cover; cursor:pointer;" src="<?php echo base_url('uploads/news/' . $get_single_experts['e_img']) ?>" alt="">
+            <?php if ($get_single_instructor['e_img']) { ?>
+                <img style="width: 40px; height:40px; object-fit:cover; cursor:pointer;" src="<?php echo base_url('uploads/news/' . $get_single_instructor['e_img']) ?>" alt="">
             <?php } ?>
         </label>
         <input type="file" name="image" id="image" alt="image" hidden>
@@ -115,7 +135,7 @@
         </div>
     </div>
     <?php form_close() ?>
-    </form>
+</form>
 
 </div>
 

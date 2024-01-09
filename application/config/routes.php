@@ -53,6 +53,7 @@ $route['admin_creat_experts_act'] = 'AdminCon/creat_experts_act';
 $route['delete_experts/(.*)']     = 'AdminCon/delete_experts/$1';
 $route['update_experts/(.*)']     = 'AdminCon/update_experts/$1';
 $route['update_experts_act/(.*)'] = 'AdminCon/update_experts_act/$1';
+$route['admin_experts_view/(.*)']         = 'AdminCon/experts_view/$1';
 
 $route['admin_user_reguest']   = 'AdminCon/user_reguest';
 $route['admin_delete_experts/(.*)']   = 'AdminCon/delete_experts_message/$1';

@@ -40,7 +40,7 @@
                     <ol class="breadcrumb justify-content-center">
                         <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('index'); ?>">Home</a></li>
                         <li class="breadcrumb-item"><a class="text-white" href="<?php echo base_url('team'); ?>">Pages</a></li>
-                        
+
                         <li class="breadcrumb-item text-white active" aria-current="page"><a class="text-white" href="<?php echo base_url('team'); ?>">About </a></li>
                     </ol>
                 </nav>
@@ -74,6 +74,8 @@
 
 
 <!-- About Start -->
+<?php $get_all_news_title = json_decode($get_experts_single['e_title'], TRUE);  ?>
+<?php $get_all_news_description = json_decode($get_experts_single['e_description'], TRUE);  ?>
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-5">
@@ -89,9 +91,22 @@
             </div>
 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                <h1 class="mb-4"><?php echo $get_experts_single['e_title']; ?></h1>
-                <p class="mb-4"><?php echo $get_experts_single['e_description']; ?></p>
+                <h6 class="section-title bg-white text-start text-primary pe-3"><?php echo $this->lang->line('about us'); ?></h6>
+               
+                <h1 class="mb-4"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h1>
+                <p class="mb-4"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
+                <br>
+                <div class="position-relative d-flex justify-content-left" style="margin-top: -23px;">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="https://www.facebook.com/Stimul.edu.az"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="https://twitter.com/STIMUL_AZ"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="https://www.instagram.com/stimul.az/"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                <br>
+                <p style="color: green;"><?php echo $get_experts_single['e_status']; ?></p>
+                <h3 style="color: green;"><?php echo $get_experts_single['e_category']; ?></h3>
+                
                 <br>
                 <br>
                 <div class="row gy-2 gx-4 mb-4">
@@ -102,15 +117,9 @@
                     <div class="col-sm-6">
                         <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><?php echo $get_experts_single['e_date']; ?></p>
                     </div>
-                    
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-                    <br><br><br>
+
+           
                     <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo base_url('about'); ?>">Read More</a>
                 </div>
 
@@ -124,11 +133,13 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3"><?php echo $this->lang->line('instructors'); ?></h6>
+                <h1 class="mb-5"><?php echo $this->lang->line('expert instructors'); ?></h1>
             </div>
             <div class="row g-4">
                 <?php foreach ($experts_news as $get_experts_news_key) { ?>
+                    <?php $get_all_news_title = json_decode($get_experts_news_key['e_title'], TRUE);  ?>
+                    <?php $get_all_news_description = json_decode($get_experts_news_key['e_description'], TRUE);  ?>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item bg-light">
                             <div class="overflow-hidden">
@@ -148,7 +159,8 @@
                                 </div>
                             </div>
                             <div class="text-center p-4">
-                                <h5 class="mb-0"><?php echo  $get_experts_news_key['e_title']; ?></h5>
+                                <h5 class="mb-0"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5>
+                                <p style="color: green;"><?php echo $get_experts_news_key['e_status']; ?></p>
                                 <small><?php echo   $get_experts_news_key['e_category']; ?></small>
                             </div>
                         </div>

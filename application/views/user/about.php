@@ -133,6 +133,8 @@
         </div>
         <div class="row g-4">
         <?php foreach ($experts_news as $get_experts_news_key) { ?>
+            <?php $get_all_news_title = json_decode($get_experts_news_key['e_title'], TRUE);  ?>
+                <?php $get_all_news_description = json_decode($get_experts_news_key['e_description'], TRUE);  ?>
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item bg-light">
             <div class="overflow-hidden">
@@ -152,7 +154,7 @@
                 </div>
             </div>
             <div class="text-center p-4">
-                <h5 class="mb-0"><?php echo  $get_experts_news_key['e_title']; ?></h5>
+                <h5 class="mb-0"><h5 class="mb-0"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h5></h5>
                 <small><?php echo   $get_experts_news_key['e_category']; ?></small>
             </div>
         </div>

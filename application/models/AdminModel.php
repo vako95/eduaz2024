@@ -20,16 +20,13 @@ class AdminModel extends CI_model
    //expert
    public function get_experts_news()
    {
-       return $this->db->order_by('e_id', 'DESC')->get('experts')->result_array();
+       return $this->db->order_by('e_id')->get('experts')->result_array();
    }
    public function delete_experts($id)
    {
        $this->db->where('e_id', $id)->delete('experts');
    }
-   public function get_single_experts($id)
-   {
-       return $this->db->where('e_id', $id)->get('experts')->row_array();
-   }
+   
    public function update_experts($id, $data)
    {
        $this->db->where('e_id', $id)->update('experts', $data);
@@ -69,6 +66,14 @@ class AdminModel extends CI_model
     }
   
     public function get_single_news($id)
+    {
+        return $this->db->where('n_id', $id)->get('news')->row_array();
+    }
+    public function get_single_instructor($id)
+    {
+        return $this->db->where('e_id', $id)->get('experts')->row_array();
+    }
+    public function get_single_experts($id)
     {
         return $this->db->where('n_id', $id)->get('news')->row_array();
     }

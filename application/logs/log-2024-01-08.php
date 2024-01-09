@@ -78,3 +78,4 @@ ERROR - 2024-01-08 07:28:50 --> Severity: Warning --> Trying to access array off
 ERROR - 2024-01-08 07:28:50 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\uptade_about.php 115
 ERROR - 2024-01-08 04:29:57 --> 404 Page Not Found: Plugins/bower_components
 ERROR - 2024-01-08 04:29:57 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-08 22:07:49 --> 404 Page Not Found: Img/favicon.ico

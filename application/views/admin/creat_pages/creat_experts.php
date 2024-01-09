@@ -25,14 +25,38 @@
        
 
         <form action="<?php echo base_url('admin_creat_experts_act'); ?>" method="post" enctype="multipart/form-data" class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
-            <label for="title">Title</label>
-            <input name="title" type="text" class="form-control" id="title" placeholder="Enter title">
+        <div class="form-roup">
+            <label for="title_az_label">Title AZ</label>
+            <input name="title_az" type="text" class="form-control" id="title_az_label" placeholder="Enter title">
+            <div class="my-3"></div>
+            <label for="title_ru_label">Title RU</label>
+            <input name="title_ru" type="text" class="form-control" id="title_ru_label" placeholder="Enter title">
+            <div class="my-3"></div>
+            <label for="title_en_label">Title EN</label>
+            <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title">
+            <div class="my-3"></div>
+        </div>
     </div>
     <br>
     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
-        <label for="mytextarea">Description</label>
+    <div class="">
+            <div class="form-group">
+                <label for="desc_ru_label">Description RU</label>
+                <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label"></textarea>
+                <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+                <div class="my-3"></div>
 
-        <textarea name="descr" class="form-control" cols="30" rows="10" id="mytextarea"></textarea>
+                <label for="desc_en_label">Description EN</label>
+                <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label"></textarea>
+                <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+                <div class="my-3"></div>
+
+                <label for="desc_az_label">Description AZ</label>
+                <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label"></textarea>
+                <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+                <div class="my-3"></div>
+            </div>
+        </div>
         <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
 
     </div>

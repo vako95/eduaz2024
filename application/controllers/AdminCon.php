@@ -93,7 +93,8 @@ class AdminCon extends CI_Controller
     public function creat_news()
     {
 
-
+     
+      
         $this->load->view('admin/creat_pages/creat_news');
     }
 
@@ -112,7 +113,8 @@ class AdminCon extends CI_Controller
         $date  = $this->input->post('date', TRUE);
         $cate  = $this->input->post('cate', TRUE);
         $status  = $this->input->post('status', TRUE);
-
+   
+      
 
         if (
             !empty($title_en) &&
@@ -159,7 +161,7 @@ class AdminCon extends CI_Controller
 
 
                 ];
-
+      
 
                 $this->AdminModel->insert_news($data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
@@ -184,7 +186,8 @@ class AdminCon extends CI_Controller
                     'n_category'     =>  $cate,
                     'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
                 ];
-
+              
+              
                 $this->AdminModel->insert_news($data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
                 redirect(base_url('admin_news'));
@@ -227,6 +230,7 @@ class AdminCon extends CI_Controller
         $date  = $this->input->post('date', TRUE);
         $cate  = $this->input->post('cate', TRUE);
         $status  = $this->input->post('status', TRUE);
+       
         if (
             !empty($title_en) &&
             !empty($title_az) &&
@@ -268,6 +272,7 @@ class AdminCon extends CI_Controller
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
                     'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+             
 
                     'n_img'      => $image_data['file_name']
 
@@ -569,54 +574,93 @@ public function update_about_act($id)
 
     public function creat_experts_act()
     {
-        $title  = $_POST['title'];
-        $descr  = $_POST['descr'];
-        $date   = $_POST['date'];
-        $cate   = $_POST['cate'];
-        $status = $_POST['status'];
-
-        if (!empty($title) && !empty($descr) && !empty($date) && !empty($cate) && !empty($status)) {
-
+        
+        $title_en  = $this->input->post('title_en', TRUE);
+        $title_az  = $this->input->post('title_az', TRUE);
+        $title_ru  = $this->input->post('title_ru', TRUE);
+    
+        $desc_en  = $this->input->post('desc_en', TRUE);
+        $desc_az  = $this->input->post('desc_az', TRUE);
+        $desc_ru  = $this->input->post('desc_ru', TRUE);
+    
+    
+    
+        $date  = $this->input->post('date', TRUE);
+        $cate  = $this->input->post('cate', TRUE);
+        $status  = $this->input->post('status');
+    
+    
+        if (
+            !empty($title_en) &&
+            !empty($title_az) &&
+            !empty($title_ru) &&
+            !empty($desc_en) &&
+            !empty($desc_az) &&
+            !empty($desc_ru) &&
+            !empty($cate) &&
+            !empty($status)
+        ) {
+    
             $config['upload_path']          = './uploads/news/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
             // $config['max_size']             = 100;
             // $config['max_width']            = 1024;
             // $config['max_height']           = 768;
-
+    
             $this->load->library('upload', $config);
             $this->upload->initialize($config);
-
+    
             if ($this->upload->do_upload('image')) {
-                $img     =  $this->upload->data('file_name');
-                $img_ext =  $this->upload->data('file_ext');
-
+                $image_data    =  $this->upload->data();
+    
+                $json_decoded_data_title = [
+                    "en" => $title_en,
+                    "ru" => $title_ru,
+                    "az" => $title_az,
+                ];
+                $json_decoded_data_description = [
+                    "en" => $desc_en,
+                    "ru" => $desc_ru,
+                    "az" => $desc_az,
+                ];
+    
                 $data = [
-                    'e_title'        =>  $title,
-                    'e_description'  =>  $descr,
+                    'e_title'        =>   json_encode($json_decoded_data_title),
+                    'e_description'  =>   json_encode($json_decoded_data_description),
                     'e_date'         =>  $date,
                     'e_category'     =>  $cate,
-                    'e_status'       =>  $status,
-                    'e_img'          => $img,
-                    'e_img_ext'      => $img_ext,
-
-
+                    'e_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
+    
+                    'e_img'      => $image_data['file_name']
+    
+    
                 ];
-                $data = $this->security->xss_clean($data);
-
-                $this->AdminModel->get_experts_news($data);
+    
+    
+                $this->AdminModel->insert_experts($data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
-                redirect(base_url('admin_expert'));
+                redirect(base_url('admin_experts'));
             } else {
+    
+                $json_decoded_data_title = [
+                    "en" => $title_en,
+                    "ru" => $title_ru,
+                    "az" => $title_az,
+                ];
+                $json_decoded_data_description = [
+                    "en" => $desc_en,
+                    "ru" => $desc_ru,
+                    "az" => $desc_az,
+                ];
+    
                 $data = [
-                    'e_title'        =>  $title,
-                    'e_description'  =>  $descr,
+                    'e_title'        =>   json_encode($json_decoded_data_title),
+                    'e_description'  =>   json_encode($json_decoded_data_description),
                     'e_date'         =>  $date,
                     'e_category'     =>  $cate,
-                    'e_status'       =>  $status,
+                    'e_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
                 ];
-
-                $data = $this->security->xss_clean($data);
-
+    
                 $this->AdminModel->insert_experts($data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla elave edildi.');
                 redirect(base_url('admin_experts'));
@@ -639,21 +683,41 @@ public function update_about_act($id)
     public function update_experts($id)
     {
         $id = $this->security->xss_clean($id);
-        $data['get_single_experts'] = $this->AdminModel->get_single_experts($id);
+        
+      
+        
+        $data['get_single_instructor'] = $this->AdminModel->get_single_instructor($id);
         $this->load->view('admin/update_experts', $data);
     }
 
     public function update_experts_act($id)
     {
+        
+        $title_en  = $this->input->post('title_en', TRUE);
+        $title_az  = $this->input->post('title_az', TRUE);
+        $title_ru  = $this->input->post('title_ru', TRUE);
 
-        $title  = $_POST['title'];
-        $descr  = $_POST['descr'];
-        $date   = $_POST['date'];
-        $cate   = $_POST['cate'];
-        $status = $_POST['status'];
+        $desc_en  = $this->input->post('desc_en', TRUE);
+        $desc_az  = $this->input->post('desc_az', TRUE);
+        $desc_ru  = $this->input->post('desc_ru', TRUE);
 
-        if (!empty($title) && !empty($descr) && !empty($date) && !empty($cate) && !empty($status)) {
 
+
+        $date  = $this->input->post('date', TRUE);
+        $cate  = $this->input->post('cate', TRUE);
+        $status  = $this->input->post('status', TRUE);
+       
+        if (
+            !empty($title_en) &&
+            !empty($title_az) &&
+            !empty($title_ru) &&
+            !empty($desc_en) &&
+            !empty($desc_az) &&
+            !empty($desc_ru) &&
+            !empty($date) &&
+            !empty($cate) &&
+            !empty($status)
+        ) {
             $config['upload_path']          = './uploads/news/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg|pdf|mp3|mp4';
             // $config['max_size']             = 100;
@@ -665,33 +729,56 @@ public function update_about_act($id)
 
 
             if ($this->upload->do_upload('image')) {
-                $img     =  $this->upload->data('file_name');
-                $img_ext =  $this->upload->data('file_ext');
+                $image_data    =  $this->upload->data();
+
+                $json_decoded_data_title = [
+                    "en" => $title_en,
+                    "ru" => $title_ru,
+                    "az" => $title_az,
+                ];
+                $json_decoded_data_description = [
+                    "en" => $desc_en,
+                    "ru" => $desc_ru,
+                    "az" => $desc_az,
+                ];
 
                 $data = [
-                    'e_title'        =>  $title,
-                    'e_description'  =>  $descr,
+                    'e_title'        =>   json_encode($json_decoded_data_title),
+                    'e_description'  =>   json_encode($json_decoded_data_description),
                     'e_date'         =>  $date,
                     'e_category'     =>  $cate,
-                    'e_status'       =>  $status,
-                    'e_img'          =>  $img,
-                    'e_img_ext'      =>  $img_ext,
+                    'e_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
+             
+
+                    'e_img'      => $image_data['file_name']
 
 
                 ];
-                $data = $this->security->xss_clean($data);
 
                 $this->AdminModel->update_experts($id, $data);
                 $this->session->set_flashdata('success', 'Təbriklər! Məlumat uğurla yenilendi.');
                 redirect(base_url('admin_experts'));
             } else {
+                $json_decoded_data_title = [
+                    "en" => $title_en,
+                    "ru" => $title_ru,
+                    "az" => $title_az,
+                ];
+                $json_decoded_data_description = [
+                    "en" => $desc_en,
+                    "ru" => $desc_ru,
+                    "az" => $desc_az,
+                ];
+
+
                 $data = [
-                    'e_title'        =>  $title,
-                    'e_description'  =>  $descr,
+                    'e_title'        =>   json_encode($json_decoded_data_title),
+                    'e_description'  =>   json_encode($json_decoded_data_description),
                     'e_date'         =>  $date,
                     'e_category'     =>  $cate,
-                    'e_status'       =>  $status,
+                    'e_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
                 ];
+
 
                 $id = $this->security->xss_clean($id);
                 $data = $this->security->xss_clean($data);
@@ -706,13 +793,16 @@ public function update_about_act($id)
             redirect($_SERVER['HTTP_REFERER']);
         }
     }
+  
+  
 
     public function  experts_view($id)
     {
         $id = $this->security->xss_clean($id);
-        $data['all_skilled'] = $this->AdminModel->get_skilled_news();
+  
+        $data['get_single_instructor'] = $this->AdminModel->get_single_instructor($id);
 
-        $this->load->view('admin/update_experts', $data);
+        $this->load->view('admin/experts_view', $data);
     }
     //experts
 

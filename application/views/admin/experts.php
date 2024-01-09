@@ -51,13 +51,18 @@
                     </thead>
                     <tbody>
                         <?php foreach ($all_expert as $all_expert_key) { ?>
-
+                            <?php $get_all_news_title = json_decode($all_expert_key['e_title'], TRUE);  ?>
+                                <?php $get_all_news_description = json_decode($all_expert_key['e_description'], TRUE);  ?>
                             <tr>
                                 <td>1</td>
 
 
-                                <td><?php echo $all_expert_key['e_title']; ?></td>
-                                <td><?php echo $all_expert_key['e_description']; ?></td> 
+                                <td><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></td>
+                                <td>
+                                <a href="<?php echo base_url('admin_experts_view/' .$all_expert_key['e_id']) ?>">
+                                <i style="  text-align: center;  width: 75%; " class="fa fa-eye " aria-hidden="true"></i>
+                                </a>
+                                </td>
                                 <td> <?php echo $all_expert_key['e_date']; ?></td>
                                 <td> <?php echo $all_expert_key['e_category']; ?></td>
                                 <td> <?php if ($all_expert_key['e_img']) { ?>
@@ -71,6 +76,11 @@
 
 
                                 <td>
+                                <a href="<?php echo base_url('admin_experts_view/' . $all_expert_key['e_id']) ?>">
+                                        <button type="button" class="btn btn-info">
+                                            <i style="color:white;   font-size:10px;" class="fa fa-eye" aria-hidden="true"></i>
+                                        </button>
+                                    </a>
                                     <a href="<?php echo base_url('update_experts/' . $all_expert_key['e_id']) ?>">
                                     
                                         <button type="button" class="btn btn-warning">

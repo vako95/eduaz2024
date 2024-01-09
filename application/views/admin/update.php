@@ -15,36 +15,30 @@
     <!-- <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12"> -->
     <div class="white-box">
         <h1 style="color:red;">Update</h1>
-        <?php if($this->session->flashdata('error')){ ?>
-        <div class="alert alert-danger alert-dismissible">
-        <a href="" class="close" data-dismiss="alert" aria-label="close"></a>
-        <strong><?php echo $this->session->flashdata('error');?></strong> 
-      </div>
-    <?php } ?>
+        <?php if ($this->session->flashdata('error')) { ?>
+            <div class="alert alert-danger alert-dismissible">
+                <a href="" class="close" data-dismiss="alert" aria-label="close"></a>
+                <strong><?php echo $this->session->flashdata('error'); ?></strong>
+            </div>
+        <?php } ?>
     </div>
-    </div>
-    <?php $get_all_news_title = json_decode($get_single_news['n_title'],TRUE);  ?>
-    <?php $get_all_news_description = json_decode($get_single_news['n_description'],TRUE);  ?>
-        <form action="<?php echo base_url('update_news_act/'.$get_single_news['n_id']); ?>" method="post" enctype="multipart/form-data" class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
-            <!-- <label for="title">Title</label>
+</div>
+
+<?php $get_all_news_title = json_decode($get_single_news['n_title'], TRUE);  ?>
+<?php $get_all_news_description = json_decode($get_single_news['n_description'], TRUE);  ?>
+<form action="<?php echo base_url('update_news_act/' . $get_single_news['n_id']); ?>" method="post" enctype="multipart/form-data" class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+    <!-- <label for="title">Title</label>
             <input name="title" type="text" class="form-control" id="title" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>"> -->
+    <label for="title_az_label">Title AZ</label>
+    <input name="title_az" type="text" class="form-control" id="title_az_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <div class="my-3"></div>
+    <label for="title_ru_label">Title RU</label>
+    <input name="title_ru" type="text" class="form-control" id="title_ru_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <div class="my-3"></div>
+    <label for="title_en_label">Title EN</label>
+    <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <div class="my-3"></div>
 
-
-
-
-
-
-         
-            <label for="title_az_label">Title AZ</label>
-            <input name="title_az" type="text" class="form-control" id="title_az_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
-            <div class="my-3"></div>
-            <label for="title_ru_label">Title RU</label>
-            <input name="title_ru" type="text" class="form-control" id="title_ru_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
-            <div class="my-3"></div>
-            <label for="title_en_label">Title EN</label>
-            <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
-            <div class="my-3"></div>
-    
     <br>
     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
         <!-- <label for="mytextarea">Description</label>
@@ -55,22 +49,22 @@
 
 
         <label for="desc_ru_label">Description RU</label>
-                <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label" ><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
-                <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
-                <div class="my-3"></div>
+        <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+        <div class="my-3"></div>
 
 
 
-        
-                <label for="desc_en_label">Description EN</label>
-                <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label"> <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
-                <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
-                <div class="my-3"></div>
 
-                <label for="desc_az_label">Description AZ</label>
-                <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label" ><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
-                <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
-                <div class="my-3"></div>
+        <label for="desc_en_label">Description EN</label>
+        <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label"> <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+        <div class="my-3"></div>
+
+        <label for="desc_az_label">Description AZ</label>
+        <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
+        <div class="my-3"></div>
     </div>
 
 
@@ -83,20 +77,36 @@
     <div class="col-xs-6 col-md-3 col-lg-3 col-sm-3" style="float: left; margin:0px 25px;">
         <label for="cate">Category</label>
         <select name="cate" class="form-control" id="cate">
-            <option <?php if($get_single_news['n_category'] == ""){ echo "SELECTED"; } ?> value="">-Select-</option>
-            <option <?php if($get_single_news['n_category'] == "Web"){ echo "SELECTED"; } ?> value="Web">Web Desing</option>
-            <option <?php if($get_single_news['n_category'] == "Craphic"){ echo "SELECTED"; } ?> value="Craphic">Craphic Design</option>
-            <option <?php if($get_single_news['n_category'] == "Video"){ echo "SELECTED"; } ?> value="Video">Video Editing</option>
-            <option <?php if($get_single_news['n_category'] == "Online"){ echo "SELECTED"; } ?> value="Online">Online Marketing</option>
+            <option <?php if ($get_single_news['n_category'] == "") {
+                        echo "SELECTED";
+                    } ?> value="">-Select-</option>
+            <option <?php if ($get_single_news['n_category'] == "Web") {
+                        echo "SELECTED";
+                    } ?> value="Web">Web Desing</option>
+            <option <?php if ($get_single_news['n_category'] == "Craphic") {
+                        echo "SELECTED";
+                    } ?> value="Craphic">Craphic Design</option>
+            <option <?php if ($get_single_news['n_category'] == "Video") {
+                        echo "SELECTED";
+                    } ?> value="Video">Video Editing</option>
+            <option <?php if ($get_single_news['n_category'] == "Online") {
+                        echo "SELECTED";
+                    } ?> value="Online">Online Marketing</option>
         </select>
     </div>
     <div class="col-xs-6 col-md-3 col-lg-3 col-sm-3" style="float: left;">
         <div class="row">
             <label for="status">Status</label>
             <select name="status" class="form-control" id="status">
-                <option <?php if($get_single_news['n_status'] == ""){ echo "SELECTED"; } ?>  value="">-Select-</option>
-                <option <?php if($get_single_news['n_status'] == "Active"){ echo "SELECTED"; } ?>  value="Active">Active</option>
-                <option <?php if($get_single_news['n_status'] == "Deactive"){ echo "SELECTED"; } ?>  value="Deactive">Deactive</option>
+                <option <?php if ($get_single_news['n_status'] == "") {
+                            echo "SELECTED";
+                        } ?> value="">-Select-</option>
+                <option <?php if ($get_single_news['n_status'] == "Active") {
+                            echo "SELECTED";
+                        } ?> value="Active">Active</option>
+                <option <?php if ($get_single_news['n_status'] == "Deactive") {
+                            echo "SELECTED";
+                        } ?> value="Deactive">Deactive</option>
             </select>
         </div>
     </div>
@@ -105,27 +115,27 @@
 
         <label for="image">Image <br>
             <img style="width: 40px; height:40px; object-fit:cover; cursor:pointer;" src="<?php echo base_url('public/admin/assets/img/folder.gif'); ?>" alt="" style="cursor:pointer;">
-            <?php if($get_single_news['n_img']){ ?>
-                  <img style="width: 40px; height:40px; object-fit:cover; cursor:pointer;" src="<?php echo base_url('uploads/news/'.$get_single_news['n_img']) ?>" alt="">
-           <?php } ?>
+            <?php if ($get_single_news['n_img']) { ?>
+                <img style="width: 40px; height:40px; object-fit:cover; cursor:pointer;" src="<?php echo base_url('uploads/news/' . $get_single_news['n_img']) ?>" alt="">
+            <?php } ?>
         </label>
         <input type="file" name="image" id="image" alt="image" hidden>
         <br>
         <br>
         <br>
     </div>
-   
+
     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12" style="float:left;">
         <div class="row">
             <br>
             <br>
             <?php form_open('sweat_alert/prosses') ?>
             <button type="submit" class="btn btn-primary btn-block"><U>Update</U></button>
-           
+
         </div>
     </div>
     <?php form_close() ?>
-    </form>
+</form>
 
 </div>
 
