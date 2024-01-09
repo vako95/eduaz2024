@@ -120,7 +120,7 @@
 
 
            
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo base_url('about'); ?>">Read More</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo base_url('about'); ?>"><?php echo $this->lang->line('readmore'); ?></a>
                 </div>
 
             </div>

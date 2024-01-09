@@ -30,26 +30,31 @@
     <!-- <label for="title">Title</label>
             <input name="title" type="text" class="form-control" id="title" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>"> -->
     <label for="title_az_label">Title AZ</label>
-    <input name="title_az" type="text" class="form-control" id="title_az_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <input name="title_az" type="text" class="form-control" id="title_az_label" placeholder="Enter title" 
+    value="<?php echo $get_all_news_title["az"]; ?>">
     <div class="my-3"></div>
+    
     <label for="title_ru_label">Title RU</label>
-    <input name="title_ru" type="text" class="form-control" id="title_ru_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <input name="title_ru" type="text" class="form-control" id="title_ru_label" placeholder="Enter title" 
+    value="<?php echo $get_all_news_title["ru"]; ?>">
     <div class="my-3"></div>
+
     <label for="title_en_label">Title EN</label>
-    <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title" value="<?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?>">
+    <input name="title_en" type="text" class="form-control" id="title_en_label" placeholder="Enter title" 
+    value="<?php echo $get_all_news_title["en"]; ?>">
     <div class="my-3"></div>
 
     <br>
     <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
         <!-- <label for="mytextarea">Description</label>
 
-        <textarea name="descr" class="form-control" cols="30" rows="10" id="mytextarea"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <textarea name="descr" class="form-control" cols="30" rows="10" id="mytextarea"><?php echo $get_all_news_description["ru"]; ?></textarea>
         <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
 
 
 
         <label for="desc_ru_label">Description RU</label>
-        <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <textarea name="desc_ru" class="form-control" cols="30" rows="10" id="desc_ru_label"><?php echo $get_all_news_description["ru"]; ?></textarea>
         <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
         <div class="my-3"></div>
 
@@ -57,12 +62,14 @@
 
 
         <label for="desc_en_label">Description EN</label>
-        <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label"> <?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <textarea name="desc_en" class="form-control" cols="30" rows="10" id="desc_en_label">
+             <?php echo $get_all_news_description["en"]; ?></textarea>
         <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
         <div class="my-3"></div>
 
         <label for="desc_az_label">Description AZ</label>
-        <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></textarea>
+        <textarea name="desc_az" class="form-control" cols="30" rows="10" id="desc_az_label">
+            <?php echo $get_all_news_description["az"]; ?></textarea>
         <!-- <button id="mytextarea" class="get-editor-data">Get data</button> -->
         <div class="my-3"></div>
     </div>

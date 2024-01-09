@@ -61,8 +61,8 @@
                                 <h1 class="display-3 text-white animated slideInDown"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h1>
                                 <p class="fs-5 text-white mb-4 pb-2"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
                                 <p class="fs-5 text-white mb-4 pb-2"><?php echo date("d-M-Y", strtotime($get_all_news_key['n_date']));  ?></p>
-                                <a href="<?php echo base_url('news_single/' . $get_all_news_key['n_id']); ?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="<?php echo base_url('contact'); ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                
+                                <a href="<?php echo base_url('contact'); ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight"><?php echo $this->lang->line('join now'); ?></a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                         <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><?php echo $all_about_key['b_status']; ?></p>
                     </div>
                     <br><br><br>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo base_url('testimonial'); ?>">Read More</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo base_url('testimonial'); ?>"><?php echo $this->lang->line('readmore'); ?></a>
                 </div>
             <?php } ?>
             </div>
@@ -332,7 +332,7 @@
                     <p><?php echo $get_experts_news_key['e_category']; ?></p>
                    
                     <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0"></p>
+                        <p class="mb-0"><?php echo $get_experts_news_key['e_status']; ?></p>
                     </div>
                 </div>
             <?php } ?>

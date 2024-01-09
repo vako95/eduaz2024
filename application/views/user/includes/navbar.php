@@ -13,8 +13,8 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo $this->lang->line('pages'); ?></a>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="<?php echo base_url('team'); ?>" class="dropdown-item">Our Team</a>
-                    <a href="<?php echo base_url('testimonial'); ?>" class="dropdown-item">Testimonial</a>
+                    <a href="<?php echo base_url('team'); ?>" class="dropdown-item"><?php echo $this->lang->line('our team'); ?></a>
+                    <a href="<?php echo base_url('testimonial'); ?>" class="dropdown-item"><?php echo $this->lang->line('testimonial'); ?></a>
                    
                 </div>
             </div>

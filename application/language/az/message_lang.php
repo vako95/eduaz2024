@@ -34,6 +34,8 @@ $lang['office'] = 'Ofis';
 $lang['mobile'] = 'Mobil';
 $lang['email'] = 'E-poçt';
 $lang['touch'] = 'Əlaqədə olmaq';
+$lang['readmore'] = 'Etrafli';
+$lang['our team'] = 'Bizim komanda';
 $lang['messager'] = 'Müraciətinizi qəbul etdikdən sonra əməkdaşlarımız 2 iş günü ərzində sizinlə əlaqə saxlayacaq və gələcək tədbirlər barədə sizə göstəriş verəcəklər.';
 
 

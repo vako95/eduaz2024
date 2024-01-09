@@ -34,6 +34,8 @@ $lang['office'] = 'Office';
 $lang['mobile'] = 'Mobile';
 $lang['email'] = 'Email';
 $lang['touch'] = 'Get In Touch';
+$lang['readmore'] = 'Read More';
+$lang['our team'] = 'Our Team';
 $lang['messager'] = 'After receiving your application, our employees will contact you within 2 business days and instruct you on further actions.';
 
 

@@ -1,7 +1,6 @@
 <?php $this->load->view('user/includes/headerStyle'); ?>
 <?php $this->load->view('user/includes/navbar'); ?>
 
-
 <!-- Header Start -->
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
     <div class="container py-5">
@@ -40,9 +39,9 @@
                     <?php  } ?>
 
                     <p><?php echo $get_experts_news_key['e_category']; ?></p>
-                    <p style="color: green;"><?php echo $get_experts_news_key['e_status']; ?></p>
+                   
                     <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0"></p>
+                        <p class="mb-0"><?php echo $get_experts_news_key['e_status']; ?></p>
                     </div>
                 </div>
             <?php } ?>

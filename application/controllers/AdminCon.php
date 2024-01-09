@@ -155,7 +155,7 @@ class AdminCon extends CI_Controller
                     'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+                    'n_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
 
                     'n_img'      => $image_data['file_name']
 
@@ -184,7 +184,7 @@ class AdminCon extends CI_Controller
                     'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+                    'n_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
                 ];
               
               
@@ -271,7 +271,8 @@ class AdminCon extends CI_Controller
                     'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+                    'e_status'       =>  str_contains($status, "Active") ? "Active":"Deactive" ,
+                    // 'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
              
 
                     'n_img'      => $image_data['file_name']
@@ -300,7 +301,8 @@ class AdminCon extends CI_Controller
                     'n_description'  =>   json_encode($json_decoded_data_description),
                     'n_date'         =>  $date,
                     'n_category'     =>  $cate,
-                    'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
+                    'e_status'       =>  str_contains($status, "Active") ? "Active":"Deactive",
+                    // 'n_status'       =>  str_contains($status, "on") ? TRUE : FALSE,
                 ];
 
 
@@ -1083,7 +1085,7 @@ public function update_about_act($id)
                 $data = [
                     'p_title'        =>  $title,
                     'p_price'        =>  $price,
-                    'p_name'        =>  $name,
+                    'p_name'         =>  $name,
                     'p_student'      =>  $student,
                     'p_description'  =>  $descr,
                     'p_date'         =>  $date,

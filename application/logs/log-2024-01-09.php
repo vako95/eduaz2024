@@ -4764,3 +4764,726 @@ ERROR - 2024-01-09 08:47:33 --> Severity: Warning --> Trying to access array off
 ERROR - 2024-01-09 08:47:33 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 104
 ERROR - 2024-01-09 08:47:33 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 107
 ERROR - 2024-01-09 08:47:33 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 118
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:09 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:09 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:09 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:09 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:15:09 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:13 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:13 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:13 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:13 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:15:13 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 06:15:24 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:15:24 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:26 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:26 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:26 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:26 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:15:26 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:22 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:22 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:22 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:22 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:17:22 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 06:17:28 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:17:28 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:17:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 06:17:47 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:17:47 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:52 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:52 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:52 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:52 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:17:52 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 06:18:39 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:18:39 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:18:42 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:18:42 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:18:42 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:18:42 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:18:42 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:22:06 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:22:06 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:22:06 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:22:06 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:22:06 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 06:22:16 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:22:16 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:22:20 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:22:20 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:22:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:22:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:22:24 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:22:24 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 29
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 31
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 34
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 39
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 44
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 51
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 57
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 66
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 72
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 81
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 87
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 90
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 93
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 96
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 99
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 108
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 111
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 114
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 125
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:22:24 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:22:24 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 29
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 31
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 34
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 39
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 44
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 51
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 57
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 66
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 72
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 81
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 87
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 90
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 93
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 96
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 99
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 108
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 111
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 114
+ERROR - 2024-01-09 09:22:24 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 125
+ERROR - 2024-01-09 06:23:46 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:23:46 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:23:59 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:23:59 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:24:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:24:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 29
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 31
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 34
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 39
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 44
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 51
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 57
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 66
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 72
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 81
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 87
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 90
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 93
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 96
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 99
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 108
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 111
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 114
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 125
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:24:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:24:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 29
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 31
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 34
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 39
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 44
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 51
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 57
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 66
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 72
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 81
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 87
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 90
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 93
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 96
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 99
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 108
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 111
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 114
+ERROR - 2024-01-09 09:24:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 125
+ERROR - 2024-01-09 06:24:14 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:24:14 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:24:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:24:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:24:28 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:24:28 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:31 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:24:31 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:38 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:38 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:38 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:38 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:24:38 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:44 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:44 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:44 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 27
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:44 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update.php 28
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 29
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 32
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 35
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 38
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 45
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 51
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 59
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 64
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 73
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 79
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 82
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 85
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 88
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 91
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 100
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 103
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 106
+ERROR - 2024-01-09 09:24:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update.php 117
+ERROR - 2024-01-09 06:26:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:26:21 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:39 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:39 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 84
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 96
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 97
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 107
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 108
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 114
+ERROR - 2024-01-09 09:26:39 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 118
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:43 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:43 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 84
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 96
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 97
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 107
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 108
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 114
+ERROR - 2024-01-09 09:26:43 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 118
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:46 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:46 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 84
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 96
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 97
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 107
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 108
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 114
+ERROR - 2024-01-09 09:26:46 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 118
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:49 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:49 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 84
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 96
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 97
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 107
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 108
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 114
+ERROR - 2024-01-09 09:26:49 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 118
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:53 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:53 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 84
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 96
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 97
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 107
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 108
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 114
+ERROR - 2024-01-09 09:26:53 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 118
+ERROR - 2024-01-09 06:30:13 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:30:13 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:30:15 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:30:15 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:41:31 --> Severity: Warning --> Undefined variable $all_popular C:\xampp\htdocs\eduaz\application\views\user\courses.php 120
+ERROR - 2024-01-09 09:41:31 --> Severity: Warning --> foreach() argument must be of type array|object, null given C:\xampp\htdocs\eduaz\application\views\user\courses.php 120
+ERROR - 2024-01-09 06:47:01 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 06:47:01 --> 404 Page Not Found: Plugins/bower_components
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:47:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:47:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 29
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 31
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 34
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 39
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 44
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 51
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 57
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 66
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 72
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 81
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 87
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 90
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 93
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 96
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 99
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 108
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 111
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 114
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 125
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:47:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 27
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:47:03 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 28
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 29
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 31
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 34
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 39
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 44
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 51
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 57
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 66
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 72
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 81
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 87
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 90
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 93
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 96
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 99
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 108
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 111
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 114
+ERROR - 2024-01-09 09:47:03 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\admin\update_experts.php 125
+ERROR - 2024-01-09 14:50:35 --> 404 Page Not Found: Img/favicon.ico
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 17:52:44 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 77
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 17:52:44 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 78
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 84
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 96
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 97
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 107
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 108
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 114
+ERROR - 2024-01-09 17:52:44 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\eduaz\application\views\user\experts_post.php 118

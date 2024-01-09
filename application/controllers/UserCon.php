@@ -42,7 +42,7 @@ class UserCon extends CI_controller
         $this->load->view('user/contact', $data);
     }
     public function courses()
-    {
+    {   $data['all_popular']  = $this->Site_Model->get_all_popular();
         $data['experts_news'] = $this->Site_Model->get_experts_news();
         $data['get_all_news'] = $this->Site_Model->get_all_news();
         $data['all_skilled'] = $this->Site_Model->get_all_skilled();
