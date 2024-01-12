@@ -92,21 +92,21 @@
 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h6 class="section-title bg-white text-start text-primary pe-3"><?php echo $this->lang->line('about us'); ?></h6>
-               
+
                 <h1 class="mb-4"><?php echo $get_all_news_title[$this->session->userdata('site_lang')]; ?></h1>
                 <p class="mb-4"><?php echo $get_all_news_description[$this->session->userdata('site_lang')]; ?></p>
                 <br>
                 <div class="position-relative d-flex justify-content-left" style="margin-top: -23px;">
-                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="https://www.facebook.com/Stimul.edu.az"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="https://twitter.com/STIMUL_AZ"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="https://www.instagram.com/stimul.az/"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
+                    <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                        <a class="btn btn-sm-square btn-primary mx-1" href="https://www.facebook.com/Stimul.edu.az"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary mx-1" href="https://twitter.com/STIMUL_AZ"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-primary mx-1" href="https://www.instagram.com/stimul.az/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
                 <br>
                 <p style="color: green;"><?php echo $get_experts_single['e_status']; ?></p>
                 <h3 style="color: green;"><?php echo $get_experts_single['e_category']; ?></h3>
-                
+
                 <br>
                 <br>
                 <div class="row gy-2 gx-4 mb-4">
@@ -119,12 +119,13 @@
                     </div>
 
 
-           
+
                     <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo base_url('about'); ?>"><?php echo $this->lang->line('readmore'); ?></a>
                 </div>
 
             </div>
         </div>
+    </div>
     </div>
     <!-- About End -->
 
@@ -175,7 +176,6 @@
     <!-- Footer Start -->
 
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <?php $this->load->view('user/includes/footer'); ?>
